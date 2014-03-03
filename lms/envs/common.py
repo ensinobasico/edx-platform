@@ -234,6 +234,9 @@ FEATURES = {
 
     # Turn on/off Microsites feature
     'USE_MICROSITES': False,
+
+    # Turn off Advanced Security by default
+    'ADVANCED_SECURITY': False,
 }
 
 # Used for A/B testing
@@ -1447,7 +1450,6 @@ ALL_LANGUAGES = (
 
 
 ### Apps only installed in some instances
-
 OPTIONAL_APPS = (
     'edx_jsdraw',
     'mentoring',
@@ -1465,3 +1467,8 @@ for app_name in OPTIONAL_APPS:
         except ImportError:
             continue
     INSTALLED_APPS += (app_name,)
+
+
+### ADVANCED_SECURITY_CONFIG
+# Empty by default
+ADVANCED_SECURITY_CONFIG = {}
