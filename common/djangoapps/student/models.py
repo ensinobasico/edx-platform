@@ -459,7 +459,7 @@ class PasswordHistory(models.Model):
                 if reuse_distance >= min_diff_passwords_required:
                     break
             else:
-                return False
+                return reuse_distance >= min_diff_passwords_required
 
         return True
 
