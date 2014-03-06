@@ -557,7 +557,7 @@ function (HTML5Video, Resizer) {
         );
 
         if (
-            this.currentPlayerMode === 'html5' &&
+            (this.currentPlayerMode === 'html5' || availablePlaybackRates.length > 1) &&
             this.videoType === 'youtube'
         ) {
             if (availablePlaybackRates.length === 1 && !this.isTouch) {
@@ -571,6 +571,8 @@ function (HTML5Video, Resizer) {
 
                 _restartUsingFlash(this);
             } else if (availablePlaybackRates.length > 1) {
+                this.currentPlayerMode = 'html5';
+
                 // We need to synchronize available frame rates with the ones
                 // that the user specified.
 
