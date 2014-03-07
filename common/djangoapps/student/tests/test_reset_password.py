@@ -57,7 +57,7 @@ class ResetPasswordTests(TestCase):
     def test_nonexist_email_password_reset(self):
         """Now test the exception cases with of reset_password called with invalid email."""
 
-        bad_email_req = self.request_factory.post('/password_reset/', {'email': self.user.email+"makeItFail"})
+        bad_email_req = self.request_factory.post('/password_reset/', {'email': self.user.email + "makeItFail"})
         bad_email_resp = password_reset(bad_email_req)
         # Note: even if the email is bad, we return a successful response code
         # This prevents someone potentially trying to "brute-force" find out which emails are and aren't registered with edX
@@ -74,7 +74,7 @@ class ResetPasswordTests(TestCase):
         cache.clear()
 
         for i in xrange(30):
-            good_req = self.request_factory.post('/password_reset/', {'email': 'thisdoesnotexist@foo.com'})
+            good_req = self.request_factory.post('/password_reset/', {'email': 'thisdoesnotexist{0}@foo.com'.format(i)})
             good_resp = password_reset(good_req)
             self.assertEquals(good_resp.status_code, 200)
 
@@ -106,7 +106,7 @@ class ResetPasswordTests(TestCase):
             'value': "('registration/password_reset_done.html', [])",
         })
 
-        ((subject, msg, from_addr, to_addrs), sm_kwargs) = send_email.call_args
+        (subject, msg, from_addr, to_addrs) = send_email.call_args[0]
         self.assertIn("Password reset", subject)
         self.assertIn("You're receiving this e-mail because you requested a password reset", msg)
         self.assertEquals(from_addr, settings.DEFAULT_FROM_EMAIL)
@@ -124,7 +124,7 @@ class ResetPasswordTests(TestCase):
 
         bad_reset_req = self.request_factory.get('/password_reset_confirm/NO-OP/')
         password_reset_confirm_wrapper(bad_reset_req, 'NO', 'OP')
-        (confirm_args, confirm_kwargs) = reset_confirm.call_args
+        confirm_kwargs = reset_confirm.call_args[1]
         self.assertEquals(confirm_kwargs['uidb36'], 'NO')
         self.assertEquals(confirm_kwargs['token'], 'OP')
         self.user = User.objects.get(pk=self.user.pk)
@@ -136,7 +136,7 @@ class ResetPasswordTests(TestCase):
 
         good_reset_req = self.request_factory.get('/password_reset_confirm/{0}-{1}/'.format(self.uidb36, self.token))
         password_reset_confirm_wrapper(good_reset_req, self.uidb36, self.token)
-        (confirm_args, confirm_kwargs) = reset_confirm.call_args
+        confirm_kwargs = reset_confirm.call_args[1]
         self.assertEquals(confirm_kwargs['uidb36'], self.uidb36)
         self.assertEquals(confirm_kwargs['token'], self.token)
         self.user = User.objects.get(pk=self.user.pk)
