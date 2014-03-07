@@ -1,18 +1,16 @@
-'''
-Created on Mar 25, 2013
+"""
+    Test split modulestore w/o using any django stuff.
+"""
 
-@author: dmitchell
-'''
 import datetime
-import subprocess
 import unittest
 import uuid
 from importlib import import_module
 
 from xblock.fields import Scope
 from xmodule.course_module import CourseDescriptor
-from xmodule.modulestore.exceptions import InsufficientSpecificationError, ItemNotFoundError, VersionConflictError, \
-    DuplicateItemError
+from xmodule.modulestore.exceptions import (InsufficientSpecificationError, ItemNotFoundError, VersionConflictError,
+    DuplicateItemError)
 from xmodule.modulestore.locator import CourseLocator, BlockUsageLocator, VersionTree, DefinitionLocator
 from xmodule.modulestore.inheritance import InheritanceMixin
 from xmodule.x_module import XModuleMixin
@@ -52,52 +50,441 @@ class SplitModuleTest(unittest.TestCase):
 
     modulestore = None
 
-    # These version_guids correspond to values hard-coded in fixture files
-    # used for these tests. The files live in mitx/fixtures/splitmongo_json/*
-
-    GUID_D0 = "1d00000000000000dddd0000"  # v12345d
-    GUID_D1 = "1d00000000000000dddd1111"  # v12345d1
-    GUID_D2 = "1d00000000000000dddd2222"  # v23456d
-    GUID_D3 = "1d00000000000000dddd3333"  # v12345d0
-    GUID_D4 = "1d00000000000000dddd4444"  # v23456d0
-    GUID_D5 = "1d00000000000000dddd5555"  # v345679d
-    GUID_P = "1d00000000000000eeee0000"  # v23456p
-
+    COURSE_CONTENT={
+        "testx.GreekHero": {
+            "org": "testx",
+            "root_block_id": "head12345",
+            "user_id": "test@edx.org",
+            "fields":{
+                "tabs":[
+                        {
+                            "type":"courseware"
+                        },
+                        {
+                            "type":"course_info",
+                            "name":"Course Info"
+                        },
+                        {
+                            "type":"discussion",
+                            "name":"Discussion"
+                        },
+                        {
+                            "type":"wiki",
+                            "name":"Wiki"
+                        }
+                    ],
+                "start":"2013-02-14T05:00",
+                "data_dir":"MITx-2-Base",
+                "display_name":"The Ancient Greek Hero",
+                "grading_policy":{
+                    "GRADER":[
+                    {
+                        "min_count":5,
+                        "weight":0.15,
+                        "type":"Homework",
+                        "drop_count":1,
+                        "short_label":"HWa"
+                    },
+                    {
+                        "short_label":"",
+                        "min_count":2,
+                        "type":"Lab",
+                        "drop_count":0,
+                        "weight":0.15
+                    },
+                    {
+                        "short_label":"Midterm",
+                        "min_count":1,
+                        "type":"Midterm Exam",
+                        "drop_count":0,
+                        "weight":0.3
+                    },
+                    {
+                        "short_label":"Final",
+                        "min_count":1,
+                        "type":"Final Exam",
+                        "drop_count":0,
+                        "weight":0.4
+                    }
+                    ],
+                    "GRADE_CUTOFFS":{
+                        "Pass":0.75
+                    },
+                },
+            },
+            "revisions": [{
+                "user_id": "testassist@edx.org",
+                "update": {
+                    "head12345": {
+                        "end": "2013-04-13T04:30",
+                        "tabs": [
+                        {
+                            "type":"courseware"
+                        },
+                        {
+                            "type":"course_info",
+                            "name":"Course Info"
+                        },
+                        {
+                            "type":"discussion",
+                            "name":"Discussion"
+                        },
+                        {
+                            "type":"wiki",
+                            "name":"Wiki"
+                        },
+                        {
+                            "type":"static_tab",
+                            "name":"Syllabus",
+                            "url_slug":"01356a17b5924b17a04b7fc2426a3798"
+                        },
+                        {
+                            "type":"static_tab",
+                            "name":"Advice for Students",
+                            "url_slug":"57e9991c0d794ff58f7defae3e042e39"
+                        }
+                        ],
+                        "graceperiod":"2 hours 0 minutes 0 seconds",
+                        "grading_policy":{
+                            "GRADER":[
+                                {
+                                    "min_count":5,
+                                    "weight":0.15,
+                                    "type":"Homework",
+                                    "drop_count":1,
+                                    "short_label":"HWa"
+                                },
+                                {
+                                    "short_label":"",
+                                    "min_count":12,
+                                    "type":"Lab",
+                                    "drop_count":2,
+                                    "weight":0.15
+                                },
+                                {
+                                    "short_label":"Midterm",
+                                    "min_count":1,
+                                    "type":"Midterm Exam",
+                                    "drop_count":0,
+                                    "weight":0.3
+                                },
+                                {
+                                    "short_label":"Final",
+                                    "min_count":1,
+                                    "type":"Final Exam",
+                                    "drop_count":0,
+                                    "weight":0.4
+                                }
+                            ],
+                            "GRADE_CUTOFFS":{
+                                "Pass":0.55
+                            }
+                        },
+                    }}
+                },
+                {"user_id": "testassist@edx.org",
+                 "update": 
+                    {"head12345": {
+                        "end": "2013-06-13T04:30",
+                        "grading_policy":{
+                            "GRADER":[
+                                {
+                                    "min_count":4,
+                                    "weight":0.15,
+                                    "type":"Homework",
+                                    "drop_count":2,
+                                    "short_label":"HWa"
+                                },
+                                {
+                                    "short_label":"",
+                                    "min_count":12,
+                                    "type":"Lab",
+                                    "drop_count":2,
+                                    "weight":0.15
+                                },
+                                {
+                                    "short_label":"Midterm",
+                                    "min_count":1,
+                                    "type":"Midterm Exam",
+                                    "drop_count":0,
+                                    "weight":0.3
+                                },
+                                {
+                                    "short_label":"Final",
+                                    "min_count":1,
+                                    "type":"Final Exam",
+                                    "drop_count":0,
+                                    "weight":0.4
+                                }
+                            ],
+                            "GRADE_CUTOFFS":{
+                                "Pass":0.45
+                            }
+                        },
+                        "enrollment_start":"2013-01-01T05:00",
+                        "enrollment_end":"2013-03-02T05:00",
+                        "advertised_start":"Fall 2013",
+                    }},
+                "create": [
+                    {
+                        "id": "chapter1",
+                        "parent": "head12345",
+                        "category":"chapter",
+                        "fields":{
+                            "display_name":"Hercules"
+                        },
+                    },
+                    {
+                        "id": "chapter2",
+                        "parent": "head12345",
+                        "category":"chapter",
+                        "fields":{
+                            "display_name":"Hera heckles Hercules"
+                        },
+                    },
+                    {
+                        "id": "chapter3",
+                        "parent": "head12345",
+                        "category":"chapter",
+                        "fields":{
+                            "display_name":"Hera cuckolds Zeus"
+                        },
+                    },
+                    {
+                        "id": "problem1",
+                        "parent": "chapter3",
+                        "category":"problem",
+                        "fields":{
+                            "display_name":"Problem 3.1",
+                            "graceperiod":"4 hours 0 minutes 0 seconds"
+                        },
+                    },
+                    {
+                        "id": "problem3_2",
+                        "category":"problem",
+                        "fields":{
+                            "display_name":"Problem 3.2"
+                        },
+                    }
+                ]
+                },
+            ]
+        }, 
+        "testx.wonderful": {
+            "org": "testx",
+            "root_block_id": "head23456",
+            "user_id": "test@edx.org",
+            "fields":{
+                "tabs":[
+                    {
+                        "type":"courseware"
+                    },
+                    {
+                        "type":"course_info",
+                        "name":"Course Info"
+                    },
+                    {
+                        "type":"discussion",
+                        "name":"Discussion"
+                    },
+                    {
+                        "type":"wiki",
+                        "name":"Wiki"
+                    }
+                ],
+                "start":"2013-02-14T05:00",
+                "data_dir":"MITx-2-Base",
+                "display_name":"A wonderful course",
+                "grading_policy":{
+                    "GRADER":[
+                        {
+                            "min_count":14,
+                            "weight":0.25,
+                            "type":"Homework",
+                            "drop_count":1,
+                            "short_label":"HWa"
+                        },
+                        {
+                            "short_label":"",
+                            "min_count":12,
+                            "type":"Lab",
+                            "drop_count":2,
+                            "weight":0.25
+                        },
+                        {
+                            "short_label":"Midterm",
+                            "min_count":1,
+                            "type":"Midterm Exam",
+                            "drop_count":0,
+                            "weight":0.2
+                        },
+                        {
+                            "short_label":"Final",
+                            "min_count":1,
+                            "type":"Final Exam",
+                            "drop_count":0,
+                            "weight":0.3
+                        }
+                    ],
+                    "GRADE_CUTOFFS":{
+                        "Pass":0.95
+                    }
+                },
+            },
+            "revisions": [{
+                "user_id": "test@edx.org",
+                "update": {
+                    "head23456": {
+                        "display_name":"The most wonderful course",
+                        "grading_policy":{
+                            "GRADER":[
+                                {
+                                    "min_count":14,
+                                    "weight":0.25,
+                                    "type":"Homework",
+                                    "drop_count":1,
+                                    "short_label":"HWa"
+                                },
+                                {
+                                    "short_label":"",
+                                    "min_count":12,
+                                    "type":"Lab",
+                                    "drop_count":2,
+                                    "weight":0.25
+                                },
+                                {
+                                    "short_label":"Midterm",
+                                    "min_count":1,
+                                    "type":"Midterm Exam",
+                                    "drop_count":0,
+                                    "weight":0.2
+                                },
+                                {
+                                    "short_label":"Final",
+                                    "min_count":1,
+                                    "type":"Final Exam",
+                                    "drop_count":0,
+                                    "weight":0.3
+                                }
+                            ],
+                            "GRADE_CUTOFFS":{
+                                "Pass":0.45
+                            }
+                        },
+                    }
+                }
+            }
+            ]
+        }, 
+        "guestx.contender": {
+            "org": "guestx",
+            "root_block_id": "head345679",
+            "user_id": "test@guestx.edu",
+            "fields": {
+                "tabs":[
+                    {
+                        "type":"courseware"
+                    },
+                    {
+                        "type":"course_info",
+                        "name":"Course Info"
+                    },
+                    {
+                        "type":"discussion",
+                        "name":"Discussion"
+                    },
+                    {
+                        "type":"wiki",
+                        "name":"Wiki"
+                    }
+                ],
+                "start":"2013-03-14T05:00",
+                "data_dir":"MITx-3-Base",
+                "display_name":"Yet another contender",
+                "grading_policy":{
+                    "GRADER":[
+                        {
+                            "min_count":4,
+                            "weight":0.25,
+                            "type":"Homework",
+                            "drop_count":0,
+                            "short_label":"HW"
+                        },
+                        {
+                            "short_label":"Midterm",
+                            "min_count":1,
+                            "type":"Midterm Exam",
+                            "drop_count":0,
+                            "weight":0.4
+                        },
+                        {
+                            "short_label":"Final",
+                            "min_count":1,
+                            "type":"Final Exam",
+                            "drop_count":0,
+                            "weight":0.35
+                        }
+                    ],
+                    "GRADE_CUTOFFS":{
+                        "Pass":0.25
+                    }
+                },
+            }
+        },
+    }
     @staticmethod
     def bootstrapDB():
         '''
-        Loads the initial data into the db ensuring the collection name is
-        unique.
+        Sets up the initial data into the db
         '''
-        collection_prefix = SplitModuleTest.MODULESTORE['DOC_STORE_CONFIG']['collection'] + '.'
-        dbname = SplitModuleTest.MODULESTORE['DOC_STORE_CONFIG']['db']
-        processes = [
-            subprocess.Popen([
-                'mongoimport', '-d', dbname, '-c',
-                collection_prefix + collection, '--jsonArray',
-                '--file',
-                SplitModuleTest.COMMON_ROOT + '/test/data/splitmongo_json/' + collection + '.json'
-                ],
-                stdout=subprocess.PIPE,
-                stderr=subprocess.PIPE,
+        split_store = modulestore()
+        for course_id, course_spec in SplitModuleTest.COURSE_CONTENT.iteritems():
+            course = split_store.create_course(
+                course_spec['org'], course_id, course_spec['user_id'], course_id, course_spec['fields'], 
+                course_spec['root_block_id']
             )
-            for collection in ('active_versions', 'structures', 'definitions')]
-        for p in processes:
-            stdout, stderr = p.communicate()
-            if p.returncode != 0:
-                print "Couldn't run mongoimport:"
-                print stdout
-                print stderr
-                raise Exception("DB did not init correctly")
+            for revision in course_spec.get('revisions',[]):
+                for block_id, fields in revision.get('update', {}).iteritems():
+                    # cheat since course is most frequent
+                    if course.location.block_id == block_id:
+                        block = course
+                    else:
+                        block_usage = BlockUsageLocator.make_relative(course.location, block_id)
+                        block = split_store.get_instance(course.location.package_id, block_usage)
+                    for key, value in fields.iteritems():
+                        setattr(block, key, value)
+                # create new blocks into dag: parent must already exist; thus, order is important
+                new_ele_dict = {}
+                for spec in revision.get('create', []):
+                    if spec['parent'] in new_ele_dict:
+                        parent = new_ele_dict.get('parent')
+                    elif spec['parent'] == course.location.block_id:
+                        parent = course
+                    else:
+                        block_usage = BlockUsageLocator.make_relative(course.location, spec['parent'])
+                        parent = split_store.get_instance(course.location.package_id, block_usage)
+                    block_id = spec['id']
+                    new_ele_dict[block_id] = split_store.create_xblock(
+                        course.runtime, spec['category'], spec['fields'], block_id, parent_xblock=parent
+                    )
+                course = split_store.persist_xblock_dag(course, revision['user_id'])
+        # publish "testx.wonderful"
+        to_publish = BlockUsageLocator(package_id="testx.wonderful", branch="draft", block_id="head23456")
+        destination = CourseLocator(package_id="testx.wonderful", branch="published")
+        split_store.xblock_publish("test@edx.org", to_publish, destination, [to_publish], None)
 
     @classmethod
-    def tearDownClass(cls):
+    def tearDown(self):
+        """
+        Clear persistence between each test.
+        """
         collection_prefix = SplitModuleTest.MODULESTORE['DOC_STORE_CONFIG']['collection'] + '.'
         if SplitModuleTest.modulestore:
             for collection in ('active_versions', 'structures', 'definitions'):
                 modulestore().db.drop_collection(collection_prefix + collection)
             # drop the modulestore to force re init
             SplitModuleTest.modulestore = None
+        super(SplitModuleTest, self).tearDown()
 
     def findByIdInResult(self, collection, _id):
         """
@@ -1261,7 +1648,6 @@ def modulestore():
         return getattr(import_module(module_path), name)
 
     if SplitModuleTest.modulestore is None:
-        SplitModuleTest.bootstrapDB()
         class_ = load_function(SplitModuleTest.MODULESTORE['ENGINE'])
 
         options = {}
@@ -1274,6 +1660,8 @@ def modulestore():
             SplitModuleTest.MODULESTORE['DOC_STORE_CONFIG'],
             **options
         )
+
+        SplitModuleTest.bootstrapDB()
 
     return SplitModuleTest.modulestore
 

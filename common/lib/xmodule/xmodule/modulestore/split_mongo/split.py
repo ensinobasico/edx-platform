@@ -1006,6 +1006,39 @@ class SplitMongoModuleStore(ModuleStoreWriteBase):
             # nothing changed, just return the one sent in
             return descriptor
 
+    def create_xblock(self, runtime, category, fields=None, block_id=None, definition_id=None, parent_xblock=None):
+        """
+        This method instantiates the correct subclass of XModuleDescriptor based
+        on the contents of json_data. It does not persist it and can create one which
+        has no usage id.
+
+        parent_xblock is used to compute inherited metadata as well as to append the new xblock.
+
+        json_data:
+        - 'category': the xmodule category
+        - 'fields': a dict of locally set fields (not inherited)
+        - 'definition': the object id of the existing definition
+        """
+        xblock_class = runtime.load_block_type(category)
+        json_data = {
+            'category': category,
+        }
+        if definition_id is not None:
+            json_data['definition'] = definition_id
+        if parent_xblock is not None:
+            json_data['_inherited_settings'] = parent_xblock.xblock_kvs.inherited_settings.copy()
+            if fields is not None:
+                for field_name in inheritance.InheritanceMixin.fields:
+                    if field_name in fields:
+                        json_data['_inherited_settings'][field_name] = fields[field_name]
+
+        new_block = runtime.xblock_from_json(xblock_class, block_id, json_data)
+        if parent_xblock is not None:
+            parent_xblock.children.append(new_block.scope_ids.usage_id)
+            # decache pending children field settings
+            parent_xblock.save()
+        return new_block
+
     def persist_xblock_dag(self, xblock, user_id, force=False):
         """
         create or update the xblock and all of its children. The xblock's location must specify a course.
