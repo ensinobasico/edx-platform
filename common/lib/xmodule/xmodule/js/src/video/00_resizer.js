@@ -123,6 +123,12 @@ function () {
             return module;
         };
 
+        var setElement = function (element) {
+            config.element = element;
+
+            return module;
+        };
+
         var addCallback = function (func) {
             if ($.isFunction(func)) {
                 callbacksList.push(func);
@@ -176,6 +182,7 @@ function () {
             alignByHeightOnly: alignByHeightOnly,
             setParams: initialize,
             setMode: setMode,
+            setElement: setElement,
             callbacks: {
                 add: addCallback,
                 once: addOnceCallback,
