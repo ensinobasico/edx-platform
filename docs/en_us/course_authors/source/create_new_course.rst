@@ -144,17 +144,36 @@ From the **Settings** menu, select **Schedule and Details**.
 .. image:: Images/schedule.png
   :alt: An image of the course schedule page.
 
-.. note:: 
-
-    The default **Course Start Date** is set far into the future, to **01/01/2030 GMT**. This is to ensure that your course does not start before you intend it to.  You must change the course start date to the date you want students to begin using the course.  
-
 Follow the on-screen text to enter the course and enrollment schedule.
 
 .. note::
 
     The Time fields on this page reflect the current time zone in your browser, depending on your geography. Course start times for students are shown as UTC.
 
-Students see the course start date on their dashboards:
+
+.. _The Course Start Date:
+
+==============================
+The Course Start Date
+==============================
+
+.. note:: 
+
+    The default **Course Start Date** is set far into the future, to **01/01/2030 GMT**. This is to ensure that your course does not start before you intend it to.  You must change the course start date to the date you want students to begin using the course. 
+
+Students see the course start date on the course summary page and on their dashboards.
+
+The following example shows the course start date on the course summary page:
+
+.. image:: Images/about-page-course-start.png
+ :alt: An image of the course summary page, with the start date circled.
+
+In the dashboard, if the course has not yet started, students see the start date as in the following example:
+
+.. image:: Images/dashboard-course-to-start.png
+ :alt: An image of a course that has not started in the student dashboard, with the start date circled.
+
+If the course has started, students see the start date as in the following example:
 
 .. image:: Images/dashboard-course.png
  :alt: An image of a course listing in the student dashboard, with the start date circled.
@@ -189,15 +208,36 @@ If you do not change the default course start date (01/01/2030), and the adverti
  :alt: Image of a course listing in the student dashboard, with no start date.
 
 
+.. _The Course End Date:
+
+==============================
+The Course End Date
+==============================
+
+When your course is completed, students see the course end date on their dashboards.
+
+If grades and certificates are not yet issued, students see the course, the end date, and the message as in the following example:
+
+.. image:: Images/dashboard-wrapping-course.png
+ :alt: Image of a course on the student dashboard that has ended, but not been graded
+
+If grades are copmlete and certificates are issued, students see the course, the end date, and the message as in the following example:
+
+.. image:: Images/dashboard-completed-course.png
+ :alt: Image of a course on the student dashboard that has ended, but not been graded
+
 .. _`Describe Your Course`:
 
 ************************
 Describe Your Course
 ************************
 
-The description of your course appears on the Course Summary page that students see, and includes a course summary, prerequisites, staff information and FAQs.
+The description of your course appears on the course summary page that students see, and includes a course summary, prerequisites, staff information and FAQs.
 
-For courses on edX.org, the description is shown in the course catalog. 
+For example, the course description is circled in the following course summary page:
+
+.. image:: Images/about-page-course-description.png
+ :alt: Image of a course summary with the description circled
 
 On Edge, there is no course catalog and users will not find your course description. You must explicitly invite students to participate in your course for them to find the description.
 
@@ -219,7 +259,19 @@ On Edge, there is no course catalog and users will not find your course descript
 Add a Course Image
 ************************
 
-The course image appears on the Course Summary page that students see.
+The course image appears on the student dashboard and the course summary page.
+
+In the following example, the course image that was added in Studio is circled in the student dashboard:
+
+.. image:: Images/dashboard-course-image.png
+ :alt: Image of the course image in the student dashboard
+
+In the following example, the course image is circled in the course summary page:
+
+.. image:: Images/about-page-course-image.png
+ :alt: Image of the course image in the course summary page
+
+ 
 
 The course image should be a minimum of 660 pixels in width by 240 pixels in height, and in .JPG or .PNG format.
 
@@ -233,7 +285,15 @@ The course image should be a minimum of 660 pixels in width by 240 pixels in hei
 *********************************
 Add a Course Introduction Video
 *********************************
-The course introduction video appears on the Course Summary page that students see. The course video should excite and entice potential students to register, and reveal some of the personality the instructors bring to the course. 
+
+The course introduction video appears on the Course Summary page that students see. 
+
+In the following example, the course video is circled in the course summary page:
+
+.. image:: Images/about-page-course-video.png
+ :alt: Image of the course video in the course summary page
+
+The course video should excite and entice potential students to register, and reveal some of the personality the instructors bring to the course. 
 
 The video should answer these key questions:
 
