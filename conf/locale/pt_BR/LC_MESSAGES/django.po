@@ -87,7 +87,7 @@ msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2014-03-02 15:08-0500\n"
-"PO-Revision-Date: 2014-03-12 22:06+0100\n"
+"PO-Revision-Date: 2014-03-12 23:31+0100\n"
 "Last-Translator: David Azevedo <davidc.azevedogmail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/edx-platform/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
@@ -2622,7 +2622,7 @@ msgstr ""
 
 #: lms/templates/registration/password_reset_email.html
 msgid "You're receiving this e-mail because you requested a password reset for your user account at edx.org."
-msgstr "Você está recebendo este e-mail porque você solicitou a redefinição da senha de sua conta de usuário no edx.org."
+msgstr "Você está recebendo este e-mail porque você solicitou a redefinição da senha de sua conta de usuário em cursos.escola.org"
 
 #: lms/templates/registration/password_reset_email.html
 msgid "Please go to the following page and choose a new password:"
@@ -2638,7 +2638,7 @@ msgstr "Obrigado por usar nosso site!"
 
 #: lms/templates/registration/password_reset_email.html
 msgid "The edX Team"
-msgstr "A Equipe do edX"
+msgstr "A Equipa da Escola"
 
 #: lms/templates/wiki/article.html
 msgid "Last modified:"
@@ -2850,11 +2850,11 @@ msgid ""
 "  "
 msgstr ""
 "\n"
-"Você precisa <a href=\"%(login_url)s\">fazer o login</a> ou <a href=\"%(signup_url)s\">registrar-se</a> para utilizar esta função."
+"Você precisa <a href=\"%(login_url)s\">fazer o login</a> ou <a href=\"%(signup_url)s\">registar-se</a> para utilizar esta função."
 
 #: lms/templates/wiki/includes/anonymous_blocked.html
 msgid "You need to log in or sign up to use this function."
-msgstr "Você precisa entrar ou registrar-se para usar esta função."
+msgstr "Você precisa entrar ou registar-se para usar esta função."
 
 #: lms/templates/wiki/includes/cheatsheet.html
 msgid "Wiki Cheatsheet"
@@ -2891,7 +2891,7 @@ msgstr "[Article Name](wiki:ArticleName)"
 #. Translators: Do not translate "edX"
 #: lms/templates/wiki/includes/cheatsheet.html
 msgid "edX Additions:"
-msgstr "Adições ao edX:"
+msgstr "Adições à Escola.org"
 
 #: lms/templates/wiki/includes/cheatsheet.html
 msgid "Math Expression"
@@ -3317,7 +3317,7 @@ msgstr "Administrador"
 #: cms/templates/register.html cms/templates/widgets/header.html
 #: lms/templates/index.html
 msgid "Sign Up"
-msgstr "Registrar-se"
+msgstr "registar-se"
 
 #: cms/templates/register.html lms/templates/register-shib.html
 #: lms/templates/register.html
@@ -3421,15 +3421,15 @@ msgstr "Por que eu tenho que pagar?"
 
 #: common/templates/course_modes/choose.html
 msgid "As a not-for-profit, edX uses your contribution to support our mission to provide quality education to everyone around the world, and to improve learning through research. While we have established a minimum fee, we ask that you contribute as much as you can."
-msgstr "Como o edX não tem fins lucrativos, ele usa a sua contribuição para apoiar a nossa missão de oferecer educação de qualidade para todos ao redor do mundo e também para melhorar a aprendizagem através da pesquisa. Apesar de nós estabelecermos uma taxa mínima, pedimos que contribua tanto quanto puder."
+msgstr "Como a Escola.org não tem fins lucrativos, usamos a sua contribuição para apoiar a nossa missão de oferecer educação de qualidade para todos ao redor do mundo. Apesar de nós estabelecermos uma taxa mínima, pedimos que contribua tanto quanto puder."
 
 #: common/templates/course_modes/choose.html
 msgid "I'd like to pay more than the minimum.  Is my contribution tax deductible?"
-msgstr "Eu gostaria de pagar mais do que o mínimo. A minha taxa de contribuição é deduzível do imposto de renda?"
+msgstr "Eu gostaria de pagar mais do que o mínimo. A minha taxa de contribuição é deduzível no imposto de rendimentos?"
 
 #: common/templates/course_modes/choose.html
 msgid "Please check with your tax advisor to determine whether your contribution is tax deductible."
-msgstr "Por favor verifique com seu contador para saber se a sua taxa de contribuição é deduzível do imposto de renda."
+msgstr "Por favor verifique com seu contabilista para saber se a sua taxa de contribuição é deduzível do imposto de rendimentos."
 
 #: common/templates/course_modes/choose.html
 msgid "What if I can't afford it or don't have the necessary equipment?"
@@ -3469,7 +3469,7 @@ msgstr "Para atualizar seu cadastro e continuar o processo para obtenção de um
 
 #: common/templates/course_modes/choose.html
 msgid "To register for a Verified Certificate of Achievement option, you will need a webcam, a credit or debit card, and an ID."
-msgstr "Para se registrar para a opção de Certificado de Conclusão verificado, você vai precisar de uma webcam, um cartão de crédito ou débito e um documento de identidade."
+msgstr "Para se registar para a opção de Certificado de Conclusão verificado, você vai precisar de uma webcam, um cartão de crédito ou débito e um documento de identidade."
 
 #: common/templates/course_modes/choose.html
 msgid "What is an ID Verified Certificate?"
@@ -3887,7 +3887,7 @@ msgstr "Você tem <strong>perguntas sobre algo mais específico</strong>? Você 
 
 #: lms/templates/help_modal.html
 msgid "Report a problem"
-msgstr "Registrar um problema"
+msgstr "registar um problema"
 
 #: lms/templates/help_modal.html
 msgid "Make a suggestion"
@@ -4384,15 +4384,15 @@ msgstr "Próximos Passos"
 
 #: lms/templates/register-sidebar.html
 msgid "You will receive an activation email.  You must click on the activation link to complete the process.  Don't see the email?  Check your spam folder and mark emails from escola.org as 'not spam', since you'll want to be able to receive email from your courses."
-msgstr "Você receberá uma mensagem de e-mail de ativação. Você deve clicar no link de ativação para completar o processo. Não consegue encontrar o e-mail? Verifique se ele está na sua pasta de spam e marque todas as mensagens enviadas por escola.org como \"não é spam\" para que você possa receber mensagens relacionadas aos seus cursos. "
+msgstr "Você receberá uma mensagem de e-mail de ativação. Você deve clicar no link de ativação para completar o processo. Não consegue encontrar o e-mail? Verifique se ele está na sua pasta de spam e marque todas as mensagens enviadas por escola.org como 'não é spam' para que você possa receber mensagens relacionadas aos seus cursos. "
 
 #: lms/templates/register-sidebar.html
 msgid "As part of joining {platform_name}, you will receive an activation email.  You must click on the activation link to complete the process.  Don't see the email?  Check your spam folder and mark {platform_name} emails as 'not spam'.  At {platform_name}, we communicate mostly through email."
-msgstr "Ao juntar-se a {platform_name}, você receberá um e-mail de ativação. Você deve clicar no link de ativação para completar o processo. Não consegue encontrar o e-mail? Verifique se ela está na sua pasta de spam e marque todas as mensagens enviadas por {platform_name} como \"não é spam\". Em {platform_name}, nós nos comunicamos principalmente através de e-mails. "
+msgstr "Ao juntar-se a {platform_name}, você receberá um e-mail de ativação. Você deve clicar no link de activação para completar o processo. Não consegue encontrar o e-mail? Verifique se ela está na sua pasta de spam e marque todas as mensagens enviadas por {platform_name} como 'não é spam'. Em {platform_name}, nós comunicamos principalmente através de e-mails. "
 
 #: lms/templates/register-sidebar.html
 msgid "Need help in registering with {platform_name}?"
-msgstr "Precisa de ajuda para registrar-se em {platform_name}?"
+msgstr "Precisa de ajuda para registar-se em {platform_name}?"
 
 #: lms/templates/register-sidebar.html
 msgid "View our FAQs for answers to commonly asked questions."
@@ -5109,7 +5109,7 @@ msgstr "data de entrega {date}"
 
 #: lms/templates/courseware/course_about.html
 msgid "The currently logged-in user account does not have permission to enroll in this course. You may need to {start_logout_tag}log out{end_tag} then try the register button again. Please visit the {start_help_tag}help page{end_tag} for a possible solution."
-msgstr "A conta do usuário conectado no momento não tem permissão para inscrever-se neste curso. Pode ser necessário {start_logout_tag}sair {end_tag} e daí tentar novamente o botão para registrar-se. Por favor visite a {start_help_tag}  página de ajuda {END_TAG} para uma possível solução."
+msgstr "A conta do usuário conectado no momento não tem permissão para inscrever-se neste curso. Pode ser necessário {start_logout_tag}sair {end_tag} e daí tentar novamente o botão para registar-se. Por favor visite a {start_help_tag}  página de ajuda {END_TAG} para uma possível solução."
 
 #: lms/templates/courseware/course_about.html
 msgid "About {course.display_number_with_default}"
@@ -6242,7 +6242,7 @@ msgstr "DISCUSSÃO:"
 
 #: lms/templates/discussion/_underscore_templates.html
 msgid "HOW TO USE EDX DISCUSSIONS"
-msgstr "COMO USAR AS DISCUSSÕES NO EDX"
+msgstr "COMO USAR AS DISCUSSÕES NOS CURSOS"
 
 #: lms/templates/discussion/_underscore_templates.html
 msgid "Find discussions"
@@ -6595,11 +6595,11 @@ msgstr "Matricular-se Automaticamente"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "If auto enroll is <em>checked</em>, students who have not yet registered for edX will be automatically enrolled."
-msgstr "Se a opção matrícula automática estiver <em>selecionada</em>, os estudantes que ainda não estão inscritos no edX serão matriculados automaticamente. "
+msgstr "Se a opção matrícula automática estiver <em>selecionada</em>, os estudantes que ainda não estão inscritos no curso serão matriculados automaticamente. "
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "If auto enroll is left <em>unchecked</em>, students who have not yet registered for edX will not be enrolled, but will be allowed to enroll."
-msgstr "Se a opção matrícula automática estiver <em>desmarcada</em>, os estudantes que ainda não estão inscritos no edX não serão matriculados, mas poderão matricular-se. "
+msgstr "Se a opção matrícula automática estiver <em>desmarcada</em>, os estudantes que ainda não estão inscritos no curso não serão matriculados, mas poderão matricular-se. "
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "If email students is <em>checked</em> students will receive an email notification."
@@ -7270,7 +7270,7 @@ msgstr "Status Verificado"
 
 #: lms/templates/shoppingcart/verified_cert_receipt.html
 msgid "We have received your identification details to verify your identity. If there is a problem with any of the items, we will contact you to resubmit. You can now register for any of the verified certificate courses this semester without having to re-verify."
-msgstr "Nós recebemos os seus detalhes de identificação para verificar a sua identidade. Se houver um problema com quaisquer desses itens nós iremos contatá-lo para que eles sejam re-submetidos. Nesse momento você pode se registrar para cursos com um certificado verificado durante esse semestre sem haver a necessidade de re-verificação."
+msgstr "Nós recebemos os seus detalhes de identificação para verificar a sua identidade. Se houver um problema com quaisquer desses itens nós iremos contatá-lo para que eles sejam re-submetidos. Nesse momento você pode se registar para cursos com um certificado verificado durante esse semestre sem haver a necessidade de re-verificação."
 
 #: lms/templates/shoppingcart/verified_cert_receipt.html
 msgid "The professor will ask you to periodically submit a new photo to verify your work during the course (usually at exam times)."
@@ -7316,7 +7316,7 @@ msgstr "A página que você está procurando não foi encontrada. Volte para a {
 #: lms/templates/static_templates/privacy.html
 #: lms/templates/static_templates/tos.html
 msgid "This page left intentionally blank. It is not used by edx.org but is left here for possible use by installations of Open edX."
-msgstr "Esta página foi deixada intencionalmente em branco. Ela não é usada pela edx.org mas fica aqui para possível uso por instalações do Open edX."
+msgstr "Esta página foi deixada intencionalmente em branco. Ela não é usada pela escola.org mas fica aqui para possível uso por instalações do Open edX."
 
 #: lms/templates/static_templates/embargo.html
 msgid "This Course Unavailable In Your Country"
@@ -7361,7 +7361,7 @@ msgstr "No momento, os servidores de <em>{platform_name}</em> estão sobrecarreg
 
 #: lms/templates/university_profile/edge.html
 msgid "edX edge"
-msgstr "edx edge"
+msgstr "Escola edge"
 
 #: lms/templates/university_profile/edge.html
 msgid "Log in to your courses"
@@ -7901,7 +7901,7 @@ msgstr "Tirar outra Foto"
 #: lms/templates/verify_student/photo_reverification.html
 #: lms/templates/verify_student/photo_verification.html
 msgid "Make sure your full name on your edX account ({full_name}) matches your ID. We will also use this as the name on your certificate."
-msgstr "Certifique-se de que seu nome completo na sua conta do edX ({full_name}) corresponde ao do seu documento de identidade. Também utilizaremos esse nome no seu certificado."
+msgstr "Certifique-se de que seu nome completo na sua conta de cursos.escola.org ({full_name}) corresponde ao do seu documento de identidade. Também utilizaremos esse nome no seu certificado."
 
 #: lms/templates/verify_student/photo_reverification.html
 msgid "Once you verify your details match the requirements, you can move onto to confirm your re-verification submisssion."
@@ -7996,7 +7996,7 @@ msgstr "Inscrever-se para {}"
 
 #: lms/templates/verify_student/show_requirements.html
 msgid "You need to activate your edX account before proceeding"
-msgstr "Você precisa ativar sua conta do edX antes de prosseguir"
+msgstr "Você precisa ativar sua conta de cursos.escola.org antes de prosseguir"
 
 #: lms/templates/verify_student/show_requirements.html
 msgid "Please check your email for further instructions on activating your new account."
@@ -8028,7 +8028,7 @@ msgstr "Verifique seu e-mail"
 
 #: lms/templates/verify_student/show_requirements.html
 msgid "you need an active edX account before registering - check your email for instructions"
-msgstr "você precisa de uma conta ativa do edX antes de inscrever-se - verifique seu e-mail para mais instruções"
+msgstr "você precisa de uma conta ativa de cursos.escola.org antes de inscrever-se - verifique seu e-mail para mais instruções"
 
 #: lms/templates/verify_student/show_requirements.html
 msgid "Identification"
@@ -8165,7 +8165,7 @@ msgstr ""
 
 #: cms/templates/activation_complete.html
 msgid "Thank you for activating your account. You may now sign in and start using edX Studio to author courses."
-msgstr "Obrigado por ativar sua conta. Você já pode entrar e começar a utilizar o edX Studio para criar cursos."
+msgstr "Obrigado por ativar sua conta. Você já pode entrar e começar a utilizar o Escola.org Studio para criar cursos."
 
 #: cms/templates/activation_invalid.html
 msgid "Your account activation is invalid"
@@ -8181,7 +8181,7 @@ msgstr ""
 
 #: cms/templates/activation_invalid.html
 msgid "Contact edX Support"
-msgstr "Entre em contacto com o Suporte do edX"
+msgstr "Entre em contacto com o Suporte da Escola"
 
 #: cms/templates/asset_index.html cms/templates/asset_index.html
 #: cms/templates/widgets/header.html
