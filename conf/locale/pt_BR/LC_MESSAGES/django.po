@@ -87,7 +87,7 @@ msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2014-03-02 15:08-0500\n"
-"PO-Revision-Date: 2014-03-13 00:58+0100\n"
+"PO-Revision-Date: 2014-03-14 00:20+0100\n"
 "Last-Translator: David Azevedo <davidc.azevedogmail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/edx-platform/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
@@ -4121,7 +4121,7 @@ msgstr "Preferências da conta"
 
 #: lms/templates/login.html lms/templates/login_modal.html
 msgid "Remember me"
-msgstr ""
+msgstr "Lembrar-me"
 
 #: lms/templates/login_modal.html lms/templates/provider_login.html
 #: lms/templates/university_profile/edge.html
@@ -4384,7 +4384,7 @@ msgstr "Próximos Passos"
 
 #: lms/templates/register-sidebar.html
 msgid "You will receive an activation email. You must click on the activation linkto complete the process. Don't see the email? Check your spam folder and mark emails from class.stanford.edu as 'not spam', since you'll want to be able to receive email from your courses."
-msgstr "Você receberá uma mensagem de e-mail de ativação. Você deve clicar no link de ativação para completar o processo. Não consegue encontrar o e-mail? Verifique se ele está na sua pasta de spam e marque todas as mensagens enviadas por escola.org como 'not spam' para que você possa receber mensagens relacionadas com os seus cursos. "
+msgstr "Você receberá uma mensagem de e-mail de ativação. Você deve clicar no link de ativaçãopara completar o processo. Não consegue encontrar o e-mail? Verifique se ele está na sua pasta de spam e marque todas as mensagens enviadas por escola.org como 'not spam'para que você possa receber mensagens relacionadas com os seus cursos."
 
 #: lms/templates/register-sidebar.html
 msgid "As part of joining {platform_name}, you will receive an activation email.  You must click on the activation link to complete the process.  Don't see the email?  Check your spam folder and mark {platform_name} emails as 'not spam'.  At {platform_name}, we communicate mostly through email."
@@ -4802,7 +4802,7 @@ msgstr "Fonte:"
 
 #: lms/templates/tracking_log.html
 msgid "Tracking Log"
-msgstr "registode rastreamento"
+msgstr "registo de rastreamento"
 
 #: lms/templates/tracking_log.html
 msgid "datetime"
@@ -4951,11 +4951,11 @@ msgstr "Legenda"
 
 #: lms/templates/combinedopenended/combined_open_ended_results.html
 msgid "Submitted Rubric"
-msgstr "Rubrica Enviada"
+msgstr "Rúbrica Enviada"
 
 #: lms/templates/combinedopenended/combined_open_ended_results.html
 msgid "Toggle Full Rubric"
-msgstr "Abrir/Fechar Rubrica Completa"
+msgstr "Abrir/Fechar Rúbrica Completa"
 
 #. Translators: an example of what this string will look
 #. like is: "Scored rubric from grader 1", where
@@ -5084,7 +5084,7 @@ msgstr "Mostrar grupos de coorte"
 
 #: lms/templates/course_groups/cohort_management.html
 msgid "Cohorts in the course"
-msgstr "Grupos de coorte no curso"
+msgstr "Grupos no curso"
 
 #: lms/templates/course_groups/cohort_management.html
 msgid "Add cohort"
@@ -5096,7 +5096,7 @@ msgstr "Adicione usuários pelos nomes de usuário ou e-mail, um por linha ou se
 
 #: lms/templates/course_groups/cohort_management.html
 msgid "Add cohort members"
-msgstr "Adicionar membros dos grupos de coorte"
+msgstr "Adicionar membros dos grupos de grupo"
 
 #: lms/templates/courseware/accordion.html
 msgid "{chapter}, current chapter"
@@ -5165,7 +5165,7 @@ msgstr "Recursos adicionais "
 
 #: lms/templates/courseware/course_navigation.html
 msgid "Staff view"
-msgstr "Visualizar equipe"
+msgstr "Visão de equipa"
 
 #: lms/templates/courseware/course_navigation.html
 msgid "Student view"
@@ -5299,7 +5299,7 @@ msgstr "Boletim"
 
 #: lms/templates/courseware/gradebook.html
 msgid "Search students"
-msgstr "Buscar estudantes"
+msgstr "Procurar estudantes"
 
 #: lms/templates/courseware/info.html
 msgid "{course_number} Course Info"
@@ -5308,17 +5308,17 @@ msgstr ""
 #: lms/templates/courseware/info.html lms/templates/courseware/info.html
 #: lms/templates/courseware/welcome-back.html
 msgid "Course Updates &amp; News"
-msgstr "Atulizações e Notícias do Curso"
+msgstr "Atualizações e Notícias do Curso"
 
 #: lms/templates/courseware/info.html
 #: lms/templates/courseware/welcome-back.html
 msgid "Handout Navigation"
-msgstr "Navegação das Apostilas"
+msgstr "Navegação das Sebentas"
 
 #: lms/templates/courseware/info.html
 #: lms/templates/courseware/welcome-back.html
 msgid "Course Handouts"
-msgstr "Apostilas do Curso"
+msgstr "Sebentas do Curso"
 
 #: lms/templates/courseware/instructor_dashboard.html
 #: lms/templates/instructor/instructor_dashboard_2/instructor_dashboard_2.html
@@ -5332,7 +5332,7 @@ msgstr "Experimente o novo Painel de Controle em versão Beta"
 #: lms/templates/courseware/instructor_dashboard.html
 #: lms/templates/instructor/instructor_dashboard_2/instructor_dashboard_2.html
 msgid "Edit Course In Studio"
-msgstr "Editar curso no Studio"
+msgstr "Editar curso no Estúdio"
 
 #: lms/templates/courseware/instructor_dashboard.html
 msgid "Psychometrics"
@@ -5357,7 +5357,7 @@ msgstr "Gerenciar Grupos"
 
 #: lms/templates/courseware/instructor_dashboard.html
 msgid "Metrics"
-msgstr ""
+msgstr "Métricas"
 
 #: lms/templates/courseware/instructor_dashboard.html
 msgid "Grade Downloads"
@@ -5462,7 +5462,7 @@ msgstr "Puxar matrículas do boletim virtual"
 #: lms/templates/courseware/instructor_dashboard.html
 #: lms/templates/instructor/instructor_dashboard_2/metrics.html
 msgid "Section:"
-msgstr "secção:"
+msgstr "Secção:"
 
 #: lms/templates/courseware/instructor_dashboard.html
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
@@ -5812,7 +5812,7 @@ msgstr "Documento de Identificação Verificado"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
 msgid "Course Completed - {end_date}"
-msgstr ""
+msgstr "Curso Completado em - {end_date}"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
 msgid "Course Started - {start_date}"
@@ -5820,11 +5820,11 @@ msgstr "Curso iniciado em - {start_date} "
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
 msgid "Course has not yet started"
-msgstr ""
+msgstr "Curso ainda não iniciado"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
 msgid "Course Starts - {start_date}"
-msgstr ""
+msgstr "Curso inicia em - {start_date}"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
 msgid "Document your accomplishment!"
@@ -6020,7 +6020,7 @@ msgstr "Tornar visível para:"
 
 #: lms/templates/discussion/_inline_new_post.html
 msgid "My Cohort"
-msgstr "Meu grupo de coorte"
+msgstr "Meu grupo de grupo"
 
 #: lms/templates/discussion/_inline_new_post.html
 #: lms/templates/discussion/_new_post.html
@@ -6140,7 +6140,7 @@ msgstr "Publicar uma resposta:"
 #: lms/templates/discussion/mustache/_inline_thread_show.mustache
 #: lms/templates/discussion/mustache/_profile_thread.mustache
 msgid "anonymous"
-msgstr "anônimo"
+msgstr "anónimo"
 
 #: lms/templates/discussion/_underscore_templates.html
 msgid "&bull; This thread is closed."
@@ -6210,7 +6210,7 @@ msgstr "Atualizar resposta"
 
 #: lms/templates/discussion/_underscore_templates.html
 msgid "Delete Comment"
-msgstr ""
+msgstr "Apagar Comentário"
 
 #: lms/templates/discussion/_underscore_templates.html
 msgid "-posted %(time_ago)s by"
@@ -6218,11 +6218,11 @@ msgstr "-publicado %(time_ago)s por"
 
 #: lms/templates/discussion/_underscore_templates.html
 msgid "Editing comment"
-msgstr ""
+msgstr "Editar comentário"
 
 #: lms/templates/discussion/_underscore_templates.html
 msgid "Update comment"
-msgstr ""
+msgstr "Atualizar comentário"
 
 #: lms/templates/discussion/_underscore_templates.html
 msgid "%(comments_count)s %(span_sr_open)scomments (%(unread_comments_count)s unread comments)%(span_close)s"
@@ -9932,7 +9932,7 @@ msgstr ""
 
 #: cms/templates/widgets/header.html
 msgid "Sign Out"
-msgstr ""
+msgstr "Sair"
 
 #: cms/templates/widgets/header.html
 msgid "You're not currently signed in"
@@ -9948,15 +9948,15 @@ msgstr ""
 
 #: cms/templates/widgets/metadata-edit.html
 msgid "Launch Latex Source Compiler"
-msgstr ""
+msgstr "Lançar Compilador Latex"
 
 #: cms/templates/widgets/problem-edit.html
 msgid "Heading 1"
-msgstr ""
+msgstr "Cabeçalho 1"
 
 #: cms/templates/widgets/problem-edit.html
 msgid "Multiple Choice"
-msgstr ""
+msgstr "Escolha Múltipla"
 
 #: cms/templates/widgets/problem-edit.html
 msgid "Checkboxes"
@@ -9976,15 +9976,15 @@ msgstr ""
 
 #: cms/templates/widgets/problem-edit.html
 msgid "Explanation"
-msgstr ""
+msgstr "Explicação"
 
 #: cms/templates/widgets/problem-edit.html
 msgid "Advanced Editor"
-msgstr ""
+msgstr "Editor Avançado"
 
 #: cms/templates/widgets/problem-edit.html
 msgid "Toggle Cheatsheet"
-msgstr ""
+msgstr "Ver Soluções"
 
 #: cms/templates/widgets/problem-edit.html
 msgid "Label"
@@ -10008,7 +10008,7 @@ msgstr ""
 
 #: cms/templates/widgets/sock.html cms/templates/widgets/sock.html
 msgid "How to use Studio to build your course"
-msgstr ""
+msgstr "Como usar o Estúdio para construir o teu curso"
 
 #: cms/templates/widgets/sock.html
 msgid "Enroll in edX101"
@@ -10024,23 +10024,23 @@ msgstr ""
 
 #: cms/templates/widgets/tabs-aggregator.html
 msgid "name"
-msgstr ""
+msgstr "nome"
 
 #: cms/templates/widgets/units.html
 msgid "Delete this unit"
-msgstr ""
+msgstr "Apagar esta unidade"
 
 #: cms/templates/widgets/units.html
 msgid "Delete unit"
-msgstr ""
+msgstr "Apagar unidade"
 
 #: cms/templates/widgets/units.html
 msgid "Drag to sort"
-msgstr ""
+msgstr "Arraste para ordenar"
 
 #: cms/templates/widgets/units.html
 msgid "Drag to reorder unit"
-msgstr ""
+msgstr "Arraste para reordenar unidade"
 
 # empty
 msgid "This is a key string."
@@ -10072,7 +10072,7 @@ msgstr "Conteúdos"
 
 #: wiki/forms.py wiki/forms.py
 msgid "Summary"
-msgstr ""
+msgstr "Sumário"
 
 #: wiki/forms.py
 msgid "Give a short reason for your edit, which will be stated in the revision log."
