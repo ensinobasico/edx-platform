@@ -87,7 +87,7 @@ msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2014-03-02 15:08-0500\n"
-"PO-Revision-Date: 2014-03-13 00:43+0100\n"
+"PO-Revision-Date: 2014-03-13 00:58+0100\n"
 "Last-Translator: David Azevedo <davidc.azevedogmail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/edx-platform/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
@@ -5177,7 +5177,7 @@ msgstr "Explore cursos grátis de universidades de ponta. "
 
 #: lms/templates/courseware/courses.html
 msgid "Explore free courses from {university_name}."
-msgstr "Explore cursos grátis da {university_name}."
+msgstr "Explore os cursos da Escola.org"
 
 #: lms/templates/courseware/courseware-error.html
 msgid "There has been an error on the {span_start}{platform_name}{span_end} servers"
