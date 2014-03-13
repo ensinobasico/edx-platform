@@ -536,9 +536,9 @@
     padding: 0;
 
     header {
-      height: 120px;
+      height: 160px;
       border-bottom: 1px solid $m-gray;
-      background: transparent $register-banner-image 0 0 no-repeat;
+	  background: transparent url("https://www.escola.org/images/bg-header.png") no-repeat;
     }
   }
 }
