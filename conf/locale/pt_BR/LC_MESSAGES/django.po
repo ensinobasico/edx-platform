@@ -87,7 +87,7 @@ msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2014-03-02 15:08-0500\n"
-"PO-Revision-Date: 2014-03-15 20:17+0100\n"
+"PO-Revision-Date: 2014-03-15 20:30+0100\n"
 "Last-Translator: David Azevedo <davidc.azevedogmail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/edx-platform/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
@@ -8124,7 +8124,7 @@ msgstr "Volte para a {homepage} ou nos informe através do endereço {email} sob
 
 #: cms/templates/500.html
 msgid "Studio Server Error"
-msgstr "Erro do servidor do Studio"
+msgstr "Erro do servidor do Estúdio"
 
 #: cms/templates/500.html
 msgid "The <em>Studio</em> servers encountered an error"
@@ -8136,7 +8136,7 @@ msgstr "Ocorreu um erro no Studio e a página não pôde ser carregada. Por favo
 
 #: cms/templates/500.html
 msgid "We've logged the error and our staff is currently working to resolve this error as soon as possible."
-msgstr "Nós registramos o erro e nossa equipe está trabalhando para resolvê-lo o mais rápido possível. "
+msgstr "Nós registaamos o erro e nossa equipa está trabalhando para resolvê-lo o mais rápido possível. "
 
 #: cms/templates/500.html
 msgid "If the problem persists, please email us at {email_link}."
@@ -8145,11 +8145,11 @@ msgstr ""
 #: cms/templates/activation_active.html cms/templates/activation_complete.html
 #: cms/templates/activation_invalid.html
 msgid "Studio Account Activation"
-msgstr ""
+msgstr "Activação da Conta do Estúdio"
 
 #: cms/templates/activation_active.html
 msgid "Your account is already active"
-msgstr ""
+msgstr "A sua Conta já se encontra Activa"
 
 #: cms/templates/activation_active.html
 msgid "This account, set up using {0}, has already been activated. Please sign in to start working within edX Studio."
@@ -8161,7 +8161,7 @@ msgstr "Entre no Estúdio"
 
 #: cms/templates/activation_complete.html
 msgid "Your account activation is complete!"
-msgstr ""
+msgstr "A avtivação da sua conta está completa"
 
 #: cms/templates/activation_complete.html
 msgid "Thank you for activating your account. You may now sign in and start using edX Studio to author courses."
