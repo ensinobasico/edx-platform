@@ -87,7 +87,7 @@ msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2014-03-02 15:08-0500\n"
-"PO-Revision-Date: 2014-03-15 04:19+0100\n"
+"PO-Revision-Date: 2014-03-15 20:17+0100\n"
 "Last-Translator: David Azevedo <davidc.azevedogmail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/edx-platform/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
@@ -5117,11 +5117,11 @@ msgstr "Sobre {course.display_number_with_default}"
 
 #: lms/templates/courseware/course_about.html
 msgid "You are registered for this course"
-msgstr ""
+msgstr "Você está registado neste curso"
 
 #: lms/templates/courseware/course_about.html
 msgid "View Courseware"
-msgstr "Visualizar Material Didático"
+msgstr "Explorar o Curso"
 
 #: lms/templates/courseware/course_about.html
 msgid "This course is in your <a href=\"{cart_link}\">cart</a>."
@@ -8638,7 +8638,7 @@ msgstr "Organização Simples de Conteúdo"
 
 #: cms/templates/howitworks.html
 msgid "Studio uses a simple hierarchy of <strong>sections</strong> and <strong>subsections</strong> to organize your content."
-msgstr "O Estúdio usa uma hierarquia de <strong>secções</strong> e <strong>subscções</strong> para organizar o seu conteúdo"
+msgstr "O Estúdio usa uma hierarquia de <strong>secções</strong> e <strong>subsecções</strong> para organizar o seu conteúdo"
 
 #: cms/templates/howitworks.html
 msgid "Change Your Mind Anytime"
@@ -8654,7 +8654,7 @@ msgstr "Faça uma semana ou semestre de cada vez"
 
 #: cms/templates/howitworks.html
 msgid "Build and release <strong>sections</strong> to your students incrementally. You don't have to have it all done at once."
-msgstr "Cosntrua e publique <strong>secções</strong> de forma faseada. não precisa de fazer tudo de uma vez."
+msgstr "Construa e publique <strong>secções</strong> de forma faseada. não precisa de fazer tudo de uma vez."
 
 #: cms/templates/howitworks.html cms/templates/howitworks.html
 #: cms/templates/howitworks.html
@@ -8908,23 +8908,23 @@ msgstr ""
 #: cms/templates/index.html cms/templates/index.html
 #: cms/templates/widgets/header.html
 msgid "My Courses"
-msgstr ""
+msgstr "Os meus Cursos"
 
 #: cms/templates/index.html
 msgid "New Course"
-msgstr ""
+msgstr "Curso Novo"
 
 #: cms/templates/index.html
 msgid "Email staff to create course"
-msgstr ""
+msgstr "Envie um Email à Administração para criar um Curso"
 
 #: cms/templates/index.html
 msgid "Welcome, {0}!"
-msgstr ""
+msgstr "Bem Vindo, {0}!"
 
 #: cms/templates/index.html
 msgid "Here are all of the courses you currently have access to in Studio:"
-msgstr ""
+msgstr "Aqui estão todos os cursos a que tem acesso no Estúdio:"
 
 #: cms/templates/index.html
 msgid "You currently aren't associated with any Studio Courses."
@@ -8932,7 +8932,7 @@ msgstr ""
 
 #: cms/templates/index.html
 msgid "Please correct the highlighted fields below."
-msgstr ""
+msgstr "Por favor corriga os campos salientados em baixo."
 
 #: cms/templates/index.html
 msgid "Create a New Course"
@@ -8940,15 +8940,15 @@ msgstr "Crie um Novo Curso"
 
 #: cms/templates/index.html
 msgid "Required Information to Create a New Course"
-msgstr ""
+msgstr "Informação requerida para Criar um Curso Novo"
 
 #: cms/templates/index.html
 msgid "e.g. Introduction to Computer Science"
-msgstr ""
+msgstr "exemplo: Introdução à Ciência dos Computadores"
 
 #: cms/templates/index.html
 msgid "The public display name for your course."
-msgstr ""
+msgstr "A denominação pública do seu Curso."
 
 #: cms/templates/index.html cms/templates/settings.html
 msgid "Organization"
@@ -8956,15 +8956,15 @@ msgstr "Organização"
 
 #: cms/templates/index.html
 msgid "e.g. UniversityX or OrganizationX"
-msgstr "ex: UniversidadeX ou OrganizaçãoX"
+msgstr "exemplo: Universidade X ou Organização X"
 
 #: cms/templates/index.html
 msgid "The name of the organization sponsoring the course."
-msgstr ""
+msgstr "O nome da organização que está a patricionar o curso."
 
 #: cms/templates/index.html
 msgid "Note: This is part of your course URL, so no spaces or special characters are allowed."
-msgstr ""
+msgstr "Nota: Isto irá fazer parte do URL do Curso, por isso espaços não são permitidos"
 
 #: cms/templates/index.html
 msgid "This cannot be changed, but you can set a different display name in Advanced Settings later."
@@ -8972,7 +8972,7 @@ msgstr "Isto não poderá ser alterado, mas poderá mais tarde mudar o nome púb
 
 #: cms/templates/index.html
 msgid "e.g. CS101"
-msgstr "ex: CS101"
+msgstr "exemplo: CS101"
 
 #: cms/templates/index.html
 msgid "The unique number that identifies your course within your organization."
@@ -8988,11 +8988,11 @@ msgstr "Duração do Curso"
 
 #: cms/templates/index.html
 msgid "e.g. 2014_T1"
-msgstr "ex: 2014_T1"
+msgstr "exemplo: 2014_T1"
 
 #: cms/templates/index.html
 msgid "The term in which your course will run."
-msgstr ""
+msgstr "O intervalo de tempo de duração do curso"
 
 #: cms/templates/index.html
 msgid "Create"
@@ -9032,7 +9032,7 @@ msgstr ""
 
 #: cms/templates/index.html
 msgid "Request the Ability to Create Courses"
-msgstr ""
+msgstr "Requisite o Direito a Criar Cursos"
 
 #: cms/templates/index.html cms/templates/index.html
 msgid "Your Course Creator Request Status"
@@ -9064,7 +9064,7 @@ msgstr ""
 
 #: cms/templates/index.html cms/templates/index.html
 msgid "Need help?"
-msgstr ""
+msgstr "Precisa de ajuda?"
 
 #: cms/templates/index.html
 msgid "If you are new to Studio and having trouble getting started, there are a few things that may be of help:"
@@ -9080,19 +9080,19 @@ msgstr ""
 
 #: cms/templates/index.html cms/templates/index.html cms/templates/index.html
 msgid "Can I create courses in Studio?"
-msgstr ""
+msgstr "Posso criar cursos no Estúdio?"
 
 #: cms/templates/index.html
 msgid "In order to create courses in Studio, you must"
-msgstr ""
+msgstr "Para começar a criar cursos no Estúdio, deve"
 
 #: cms/templates/index.html
 msgid "contact edX staff to help you create a course"
-msgstr ""
+msgstr "contactar a administração da escola.org"
 
 #: cms/templates/index.html
 msgid "In order to create courses in Studio, you must have course creator privileges to create your own course."
-msgstr ""
+msgstr "Para começar a criar cursos no Estúdio, você deve ter esses privilégios no Estúdio."
 
 #: cms/templates/index.html
 msgid "Your request to author courses in studio has been denied. Please"
@@ -9100,19 +9100,19 @@ msgstr ""
 
 #: cms/templates/index.html
 msgid "contact edX Staff with further questions"
-msgstr ""
+msgstr "contacte a escola.org para mais questões"
 
 #: cms/templates/index.html
 msgid "Thanks for signing up, %(name)s!"
-msgstr ""
+msgstr "Obrigado por se inscrever,"
 
 #: cms/templates/index.html
 msgid "We need to verify your email address"
-msgstr ""
+msgstr "Precisamos de verificar o seu endereço de email"
 
 #: cms/templates/index.html
 msgid "Almost there! In order to complete your sign up we need you to verify your email address (%(email)s). An activation message and next steps should be waiting for you there."
-msgstr ""
+msgstr "Quase lá! Para completar a sua inscreição deverá verificar o seu email (%(email)s). Uma mensagem de activação com mais informações está no email à sua espera."
 
 #: cms/templates/index.html
 msgid "Please check your Junk or Spam folders in case our email isn't in your INBOX. Still can't find the verification email? Request help via the link below."
@@ -9120,7 +9120,7 @@ msgstr ""
 
 #: cms/templates/login.html cms/templates/widgets/header.html
 msgid "Sign In"
-msgstr ""
+msgstr "Entre Aqui"
 
 #: cms/templates/login.html cms/templates/login.html
 msgid "Sign In to edX Studio"
@@ -9128,11 +9128,11 @@ msgstr "Ligue-se ao Estúdio da Escola"
 
 #: cms/templates/login.html
 msgid "Don't have a Studio Account? Sign up!"
-msgstr ""
+msgstr "Não tem uma conta no Estúdio? Inscreva-se!"
 
 #: cms/templates/login.html
 msgid "Required Information to Sign In to edX Studio"
-msgstr ""
+msgstr "Informação requerida para a incrição no Estúdio da escola"
 
 #: cms/templates/login.html cms/templates/register.html
 msgid "Email Address"
@@ -9140,7 +9140,7 @@ msgstr "Endereço de Email"
 
 #: cms/templates/login.html cms/templates/widgets/sock.html
 msgid "Studio Support"
-msgstr ""
+msgstr "Suporte do Estúdio"
 
 #: cms/templates/login.html
 msgid "Having trouble with your account? Use {link_start}our support center{link_end} to look over self help steps, find solutions others have found to the same problem, or let us know of your issue."
@@ -9148,7 +9148,7 @@ msgstr ""
 
 #: cms/templates/manage_users.html
 msgid "Course Team Settings"
-msgstr ""
+msgstr "Definições da Equipa do Curso"
 
 #: cms/templates/manage_users.html cms/templates/settings.html
 #: cms/templates/settings_advanced.html cms/templates/settings_graders.html
@@ -9355,7 +9355,7 @@ msgstr ""
 
 #: cms/templates/register.html
 msgid "Sign Up for edX Studio"
-msgstr ""
+msgstr "Inscreva-se no Estúdio da Escola"
 
 #: cms/templates/register.html
 msgid "Already have a Studio Account? Sign in"
@@ -9367,7 +9367,7 @@ msgstr ""
 
 #: cms/templates/register.html
 msgid "Required Information to Sign Up for edX Studio"
-msgstr ""
+msgstr "Informação requerida para a incrição no Estúdio da escola"
 
 #: cms/templates/register.html
 msgid "This will be used in public discussions with your courses and in our edX101 support forums"
@@ -9375,19 +9375,19 @@ msgstr ""
 
 #: cms/templates/register.html
 msgid "Your Location"
-msgstr ""
+msgstr "A sua Localização"
 
 #: cms/templates/register.html
 msgid "I agree to the {a_start} Terms of Service {a_end}"
-msgstr ""
+msgstr "Eu concordo com {a_start} os Termos de Serviço {a_end}"
 
 #: cms/templates/register.html
 msgid "Create My Account &amp; Start Authoring Courses"
-msgstr ""
+msgstr "Criar a Minha Conta &amp; Começe a Criar Cursos"
 
 #: cms/templates/register.html
 msgid "Common Studio Questions"
-msgstr ""
+msgstr "Perguntas Comuns no Estúdio"
 
 #: cms/templates/register.html
 msgid "Who is Studio for?"
