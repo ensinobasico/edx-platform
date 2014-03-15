@@ -87,7 +87,7 @@ msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2014-03-02 15:08-0500\n"
-"PO-Revision-Date: 2014-03-15 22:26+0100\n"
+"PO-Revision-Date: 2014-03-15 22:53+0100\n"
 "Last-Translator: David Azevedo <davidc.azevedogmail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/edx-platform/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
@@ -8663,7 +8663,7 @@ msgstr "Aprender é mais do que Lições"
 
 #: cms/templates/howitworks.html
 msgid "Studio lets you weave your content together in a way that reinforces learning &mdash; short video lectures interleaved with exercises and more. Insert videos and author a wide variety of exercise types with just a few clicks."
-msgstr "O Estúdio permite tecer o seu conteúdo de uma maneira que reforça o aprendizagem - aulas com curtos vídeos intercalados com exercícios e muito mais. Insira vídeos e produza uma grande variedade de tipos de exercícios com apenas alguns cliques."
+msgstr "O Estúdio permite tecer o seu conteúdo de uma maneira que reforça a aprendizagem - aulas com vídeos curtos intercalados com exercícios e muito mais. Insira vídeos e produza uma grande variedade de exercícios com apenas alguns cliques."
 
 #: cms/templates/howitworks.html
 msgid "Create Learning Pathways"
@@ -8695,11 +8695,11 @@ msgstr "Estúdio Dá-lhe Publicação, Simples, Rápida e Incremental. Entre Ami
 
 #: cms/templates/howitworks.html
 msgid "Simple, Fast, and Incremental Publishing. With Friends."
-msgstr "Simples, rápido, e publicação incremental. Entre Amigos."
+msgstr "Simples, rápido, com publicação sequencial. Entre Amigos."
 
 #: cms/templates/howitworks.html
 msgid "Studio works like web applications you already know, yet understands how you build curriculum. Instant publishing to the web when you want it, incremental release when it makes sense. And with co-authors, you can have a whole team building a course, together."
-msgstr "Estúdio funciona como as aplicações web que você já conhece, mas entende como você deve construir currículos. Dispomos de publicação instantânea na web quando você quiser e com publicação sequencial. Permitimos co-autores, você pode ter uma equipa inteira na construção de um curso, em conjunto."
+msgstr "Estúdio funciona como as aplicações web que você já conhece, mas entende como você deve construir currículos. Dispomos de publicação instantânea ou sequencial na web quando você quiser. Permitimos co-autores, você pode ter uma equipa inteira na construção de um curso, em conjunto."
 
 #: cms/templates/howitworks.html
 msgid "Instant Changes"
@@ -8715,7 +8715,7 @@ msgstr "Publicação na Data de Abertura"
 
 #: cms/templates/howitworks.html
 msgid "When you've finished a <strong>section</strong>, pick when you want it to go live and Studio takes care of the rest. Build your course incrementally."
-msgstr "Quando terminar uma <strong>secção</strong>, escolha quando a quiser mostrar ao Vivo e o Estúdio trata do resto. Crie o seu curso faseadamente."
+msgstr "Quando terminar uma <strong>secção</strong>, escolha quando a quer mostrar ao Vivo e o Estúdio trata do resto. Crie o seu curso faseadamente."
 
 #: cms/templates/howitworks.html
 msgid "Work in Teams"
