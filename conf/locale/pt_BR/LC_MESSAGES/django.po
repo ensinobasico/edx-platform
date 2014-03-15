@@ -87,7 +87,7 @@ msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2014-03-02 15:08-0500\n"
-"PO-Revision-Date: 2014-03-15 20:58+0100\n"
+"PO-Revision-Date: 2014-03-15 21:18+0100\n"
 "Last-Translator: David Azevedo <davidc.azevedogmail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/edx-platform/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
@@ -8671,15 +8671,15 @@ msgstr "Crie Caminhos de Aprendizgem"
 
 #: cms/templates/howitworks.html
 msgid "Help your students understand a small interactive piece at a time with multimedia, HTML, and exercises."
-msgstr ""
+msgstr "Ajude os seus estudantes a entender uma unidade de cada vez atráves de multimédia, HTML, e exercícios."
 
 #: cms/templates/howitworks.html
 msgid "Work Visually, Organize Quickly"
-msgstr ""
+msgstr "Trabalhe Visualmente, Organize Rapidamente"
 
 #: cms/templates/howitworks.html
 msgid "Work visually and see exactly what your students will see. Reorganize all your content with drag and drop."
-msgstr ""
+msgstr "Trabalhe visualmente e veja exatamente o que os seus alunos irão ver. Reorganize todo o seu conteúdo com arrastar e largar."
 
 #: cms/templates/howitworks.html
 msgid "A Broad Library of Problem Types"
@@ -8691,7 +8691,7 @@ msgstr "É mais do que apenas múltipla escolha. Estúdio tem quase uma dúzia d
 
 #: cms/templates/howitworks.html cms/templates/howitworks.html
 msgid "Studio Gives You Simple, Fast, and Incremental Publishing. With Friends."
-msgstr ""
+msgstr "Estúdio Dá-lhe Publicação, Simples, Rápida e Incremental. Entre Amigos."
 
 #: cms/templates/howitworks.html
 msgid "Simple, Fast, and Incremental Publishing. With Friends."
@@ -8707,7 +8707,7 @@ msgstr "Mudanças Instantâneas"
 
 #: cms/templates/howitworks.html
 msgid "Caught a bug? No problem. When you want, your changes to live when you hit Save."
-msgstr ""
+msgstr "Encontrou um erro? Não há problema, grave, publique e despublique quando quiser."
 
 #: cms/templates/howitworks.html
 msgid "Release-On Date Publishing"
@@ -8715,7 +8715,7 @@ msgstr "Publicação na Data de Abertura"
 
 #: cms/templates/howitworks.html
 msgid "When you've finished a <strong>section</strong>, pick when you want it to go live and Studio takes care of the rest. Build your course incrementally."
-msgstr ""
+msgstr "Quando terminar uma <strong>secção</strong>, escolha quando a quiser mostrar ao Vivo e o Estúdio trata do resto. Crie o seu curso faseadamente."
 
 #: cms/templates/howitworks.html
 msgid "Work in Teams"
@@ -8723,7 +8723,7 @@ msgstr "Trabalhe em Equipa"
 
 #: cms/templates/howitworks.html
 msgid "Co-authors have full access to all the same authoring tools. Make your course better through a team effort."
-msgstr ""
+msgstr "Os Co-autores têm acesso total às ferramentas de produção. Faça um curso melhor através do trabalho em equipa."
 
 #: cms/templates/howitworks.html
 msgid "Sign Up for Studio Today!"
@@ -8731,7 +8731,7 @@ msgstr "Inscreva-se no Estúdio Hoje!"
 
 #: cms/templates/howitworks.html
 msgid "Sign Up &amp; Start Making an edX Course"
-msgstr ""
+msgstr "Entre &amp; Comece a Construir um Curso na Escola"
 
 #: cms/templates/howitworks.html
 msgid "Already have a Studio Account? Sign In"
