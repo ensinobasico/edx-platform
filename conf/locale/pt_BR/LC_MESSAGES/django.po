@@ -87,7 +87,7 @@ msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2014-03-02 15:08-0500\n"
-"PO-Revision-Date: 2014-03-15 20:30+0100\n"
+"PO-Revision-Date: 2014-03-15 20:58+0100\n"
 "Last-Translator: David Azevedo <davidc.azevedogmail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/edx-platform/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
@@ -8663,7 +8663,7 @@ msgstr "Aprender é mais do que Lições"
 
 #: cms/templates/howitworks.html
 msgid "Studio lets you weave your content together in a way that reinforces learning &mdash; short video lectures interleaved with exercises and more. Insert videos and author a wide variety of exercise types with just a few clicks."
-msgstr ""
+msgstr "O Estúdio permite tecer o seu conteúdo de uma maneira que reforça o aprendizagem - aulas com curtos vídeos intercalados com exercícios e muito mais. Insira vídeos e produza uma grande variedade de tipos de exercícios com apenas alguns cliques."
 
 #: cms/templates/howitworks.html
 msgid "Create Learning Pathways"
@@ -8683,11 +8683,11 @@ msgstr ""
 
 #: cms/templates/howitworks.html
 msgid "A Broad Library of Problem Types"
-msgstr ""
+msgstr "Uma Grande Variedade de Tipos de Problemas"
 
 #: cms/templates/howitworks.html
 msgid "It's more than just multiple choice. Studio has nearly a dozen types of problems to challenge your learners."
-msgstr ""
+msgstr "É mais do que apenas múltipla escolha. Estúdio tem quase uma dúzia de tipos de problemas para desafiar os seus alunos."
 
 #: cms/templates/howitworks.html cms/templates/howitworks.html
 msgid "Studio Gives You Simple, Fast, and Incremental Publishing. With Friends."
@@ -8695,15 +8695,15 @@ msgstr ""
 
 #: cms/templates/howitworks.html
 msgid "Simple, Fast, and Incremental Publishing. With Friends."
-msgstr ""
+msgstr "Simples, rápido, e publicação incremental. Entre Amigos."
 
 #: cms/templates/howitworks.html
 msgid "Studio works like web applications you already know, yet understands how you build curriculum. Instant publishing to the web when you want it, incremental release when it makes sense. And with co-authors, you can have a whole team building a course, together."
-msgstr ""
+msgstr "Estúdio funciona como as aplicações web que você já conhece, mas entende como você deve construir currículos. Dispomos de publicação instantânea na web quando você quiser e com publicação sequencial. Permitimos co-autores, você pode ter uma equipa inteira na construção de um curso, em conjunto."
 
 #: cms/templates/howitworks.html
 msgid "Instant Changes"
-msgstr ""
+msgstr "Mudanças Instantâneas"
 
 #: cms/templates/howitworks.html
 msgid "Caught a bug? No problem. When you want, your changes to live when you hit Save."
@@ -8711,7 +8711,7 @@ msgstr ""
 
 #: cms/templates/howitworks.html
 msgid "Release-On Date Publishing"
-msgstr ""
+msgstr "Publicação na Data de Abertura"
 
 #: cms/templates/howitworks.html
 msgid "When you've finished a <strong>section</strong>, pick when you want it to go live and Studio takes care of the rest. Build your course incrementally."
@@ -8719,7 +8719,7 @@ msgstr ""
 
 #: cms/templates/howitworks.html
 msgid "Work in Teams"
-msgstr ""
+msgstr "Trabalhe em Equipa"
 
 #: cms/templates/howitworks.html
 msgid "Co-authors have full access to all the same authoring tools. Make your course better through a team effort."
@@ -8727,7 +8727,7 @@ msgstr ""
 
 #: cms/templates/howitworks.html
 msgid "Sign Up for Studio Today!"
-msgstr ""
+msgstr "Inscreva-se no Estúdio Hoje!"
 
 #: cms/templates/howitworks.html
 msgid "Sign Up &amp; Start Making an edX Course"
@@ -8735,31 +8735,31 @@ msgstr ""
 
 #: cms/templates/howitworks.html
 msgid "Already have a Studio Account? Sign In"
-msgstr ""
+msgstr "Já tem uma conta no Estúdio? Entre Aqui"
 
 #: cms/templates/howitworks.html
 msgid "Outlining Your Course"
-msgstr ""
+msgstr "Esboço do Seu Curso"
 
 #: cms/templates/howitworks.html
 msgid "Simple two-level outline to organize your couse. Drag and drop, and see your course at a glance."
-msgstr ""
+msgstr "Simples esboços de dois níveis para organizar o seu curso. Arraste e solte, e veja o seu curso num instante."
 
 #: cms/templates/howitworks.html
 msgid "More than Just Lectures"
-msgstr ""
+msgstr "Mais do que só Palestras"
 
 #: cms/templates/howitworks.html
 msgid "Quickly create videos, text snippets, inline discussions, and a variety of problem types."
-msgstr ""
+msgstr "Crie rapidamente vídeos, trechos de textos, discussões em linha, e uma variedade de tipos de problemas."
 
 #: cms/templates/howitworks.html
 msgid "Publishing on Date"
-msgstr ""
+msgstr "Data de Publicação"
 
 #: cms/templates/howitworks.html
 msgid "Simply set the date of a section or subsection, and Studio will publish it to your students for you."
-msgstr ""
+msgstr "Basta definir a data de uma secção ou subsecção, e Estúdio irá publicá-lo aos seus alunos."
 
 #: cms/templates/html_error.html
 msgid "We're having trouble rendering your component"
@@ -8771,7 +8771,7 @@ msgstr ""
 
 #: cms/templates/import.html cms/templates/import.html
 msgid "Course Import"
-msgstr ""
+msgstr "Importar Curso"
 
 #: cms/templates/import.html
 msgid "Be sure you want to import a course before continuing. Content of the imported course replaces all the content of this course. {em_start}You cannot undo a course import{em_end}. We recommend that you first export the current course, so you have a backup copy of it."
@@ -8920,7 +8920,7 @@ msgstr "Envie um Email à Administração para criar um Curso"
 
 #: cms/templates/index.html
 msgid "Welcome, {0}!"
-msgstr "Bem Vindo, {0}!"
+msgstr "Bem Vindo, Estúdio da Escola!"
 
 #: cms/templates/index.html
 msgid "Here are all of the courses you currently have access to in Studio:"
@@ -8928,7 +8928,7 @@ msgstr "Aqui estão todos os cursos a que tem acesso no Estúdio:"
 
 #: cms/templates/index.html
 msgid "You currently aren't associated with any Studio Courses."
-msgstr ""
+msgstr "De momento não está associado a qualquer Curso no Estúdio"
 
 #: cms/templates/index.html
 msgid "Please correct the highlighted fields below."
