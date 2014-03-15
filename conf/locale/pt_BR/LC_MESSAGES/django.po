@@ -87,7 +87,7 @@ msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2014-03-02 15:08-0500\n"
-"PO-Revision-Date: 2014-03-14 02:04+0100\n"
+"PO-Revision-Date: 2014-03-15 04:19+0100\n"
 "Last-Translator: David Azevedo <davidc.azevedogmail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/edx-platform/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
@@ -184,7 +184,7 @@ msgstr "Aluno"
 
 #: common/djangoapps/student/middleware.py
 msgid "Your account has been disabled. If you believe this was done in error, please contact us at {link_start}{support_email}{link_end}"
-msgstr "Sua conta foi desativada. Se você acredita que isso seja um erro, por favor, entre em contacto conosco através do {link_start}{support_email}{link_end}: "
+msgstr "Sua conta foi desativada. Se você acredita que isso seja um erro, por favor, entre em contacto connosco através do {link_start}{support_email}{link_end}: "
 
 #: common/djangoapps/student/middleware.py
 msgid "Disabled Account"
@@ -2177,7 +2177,7 @@ msgstr ""
 "A decisão fornecida foi <span class=\"decision\">{decision}</span>,\n"
 "e a razão era <span class=\"reason\">{reason_code}:{reason_msg}</span>.\n"
 "Você não foi cobrado. Por favor, tente uma forma diferente de pagamento.\n"
-"Para perguntas sobre o pagamento, entre em contacto conosco através do endereço {email}.\n"
+"Para perguntas sobre o pagamento, entre em contacto connosco através do endereço {email}.\n"
 "</p>"
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource.py
@@ -2566,7 +2566,7 @@ msgid ""
 "            "
 msgstr ""
 "\n"
-"Já fomos informados sobre o problema. Por favor, tente novamente em breve. Por favor, %(start_link)sentre em contacto%(end_link)s conosco sobre qualquer questão que você tenha."
+"Já fomos informados sobre o problema. Por favor, tente novamente em breve. Por favor, %(start_link)sentre em contacto%(end_link)s connosco sobre qualquer questão que você tenha."
 
 #: lms/templates/registration/password_reset_confirm.html
 msgid "Please enter your new password twice so we can verify you typed it in correctly. <br /> Required fields are noted by <strong class=\"indicator\">bold text and an asterisk (*)</strong>."
@@ -4481,7 +4481,7 @@ msgstr "Endereço para correspondência"
 
 #: lms/templates/register.html
 msgid "Please share with us your reasons for registering with {platform_name}"
-msgstr "Compartilhe conosco suas razões para inscrever-se para {platform_name}"
+msgstr "Por favor, partilhe connosco as razões da sua inscrição em {platform_name}"
 
 #: lms/templates/register.html lms/templates/university_profile/edge.html
 msgid "Register"
@@ -4506,7 +4506,7 @@ msgstr "Anterior"
 
 #: lms/templates/seq_module.html lms/templates/seq_module.html
 msgid "Section Navigation"
-msgstr "Navegação de Seções"
+msgstr "Navegação de Secções"
 
 #: lms/templates/seq_module.html lms/templates/seq_module.html
 #: lms/templates/discussion/mustache/_pagination.mustache
@@ -6475,7 +6475,7 @@ msgstr "Baixar informações sobre o perfil como um CSV"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid "Displays the grading configuration for the course. The grading configuration is the breakdown of graded subsections of the course (such as exams and problem sets), and can be changed on the 'Grading' page (under 'Settings') in Studio."
-msgstr "Exibe os critérios de correção para o curso. Os critérios de correção correspondem aos critérios para cada uma das subseções do curso (tais como exames e conjuntos de problemas) e podem ser alterados na página de 'Correção' (em 'Configurações') no Studio."
+msgstr "Exibe os critérios de correção para o curso. Os critérios de correção correspondem aos critérios para cada uma das subsecções do curso (tais como exames e conjuntos de problemas) e podem ser alterados na página de 'Correção' (em 'Configurações') no Studio."
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid "Grading Configuration"
@@ -6487,7 +6487,7 @@ msgstr "Clique nesse botão para baixar um arquivo CSV com a identidade de estud
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid "Get Student Anonymized IDs CSV"
-msgstr "Obter arquivo em formato CSV de Aluno com Identificação Anônima"
+msgstr "Obter arquivo em formato CSV de Aluno com Identificação Anónima"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid "Grade Reports"
@@ -8157,7 +8157,7 @@ msgstr ""
 
 #: cms/templates/activation_active.html cms/templates/activation_complete.html
 msgid "Sign into Studio"
-msgstr ""
+msgstr "Entre no Estúdio"
 
 #: cms/templates/activation_complete.html
 msgid "Your account activation is complete!"
@@ -8259,15 +8259,15 @@ msgstr ""
 #: cms/templates/export_git.html cms/templates/import.html
 #: cms/templates/widgets/header.html
 msgid "Tools"
-msgstr ""
+msgstr "Ferramentas"
 
 #: cms/templates/checklists.html
 msgid "Course Checklists"
-msgstr ""
+msgstr "Listas de verificação do curso"
 
 #: cms/templates/checklists.html
 msgid "Current Checklists"
-msgstr ""
+msgstr "Listas de verificação atuais"
 
 #: cms/templates/checklists.html
 msgid "What are course checklists?"
@@ -8287,15 +8287,15 @@ msgstr ""
 
 #: cms/templates/component.html cms/templates/studio_xblock_wrapper.html
 msgid "Duplicate"
-msgstr ""
+msgstr "Duplicar"
 
 #: cms/templates/component.html cms/templates/studio_xblock_wrapper.html
 msgid "Duplicate this component"
-msgstr ""
+msgstr "Duplicar este componente"
 
 #: cms/templates/component.html cms/templates/studio_xblock_wrapper.html
 msgid "Delete this component"
-msgstr ""
+msgstr "Apagar este componente"
 
 #: cms/templates/component.html cms/templates/overview.html
 #: cms/templates/overview.html
@@ -8321,7 +8321,7 @@ msgstr ""
 
 #: cms/templates/course_info.html
 msgid "New Update"
-msgstr ""
+msgstr "Novo update"
 
 #: cms/templates/course_info.html
 msgid "Use course updates to notify students of important dates or exams, highlight particular discussions in the forums, announce schedule changes, and respond to student questions. You add or edit updates in HTML."
@@ -8330,11 +8330,11 @@ msgstr ""
 #: cms/templates/edit-tabs.html cms/templates/export.html
 #: cms/templates/widgets/header.html
 msgid "Static Pages"
-msgstr ""
+msgstr "Páginas Estáticas"
 
 #: cms/templates/edit-tabs.html
 msgid "New Page"
-msgstr ""
+msgstr "Nova Página"
 
 #: cms/templates/edit-tabs.html
 msgid "Use Static Pages to share a syllabus, a calendar, handouts, or other supplements to your courseware."
@@ -8350,7 +8350,7 @@ msgstr ""
 
 #: cms/templates/edit-tabs.html
 msgid "Static Pages in Your Course"
-msgstr ""
+msgstr "Páginas estáticas no seu curso"
 
 #: cms/templates/edit-tabs.html
 msgid "Preview of Static Pages in your course"
@@ -8363,7 +8363,7 @@ msgstr ""
 #: cms/templates/edit-tabs.html cms/templates/howitworks.html
 #: cms/templates/howitworks.html cms/templates/howitworks.html
 msgid "close modal"
-msgstr ""
+msgstr "fechar modal"
 
 #: cms/templates/edit_subsection.html
 msgid "CMS Subsection"
@@ -8371,11 +8371,11 @@ msgstr ""
 
 #: cms/templates/edit_subsection.html cms/templates/unit.html
 msgid "Display Name:"
-msgstr ""
+msgstr "Mostrar nome"
 
 #: cms/templates/edit_subsection.html
 msgid "Units:"
-msgstr ""
+msgstr "Unidades"
 
 #: cms/templates/edit_subsection.html
 msgid "Subsection Settings"
@@ -8383,11 +8383,11 @@ msgstr ""
 
 #: cms/templates/edit_subsection.html cms/templates/overview.html
 msgid "Release Day"
-msgstr ""
+msgstr "Dia de Início"
 
 #: cms/templates/edit_subsection.html cms/templates/overview.html
 msgid "Release Time"
-msgstr ""
+msgstr "Hora de Início"
 
 #: cms/templates/edit_subsection.html cms/templates/edit_subsection.html
 #: cms/templates/overview.html
@@ -8420,24 +8420,24 @@ msgstr ""
 
 #: cms/templates/edit_subsection.html
 msgid "Due Day"
-msgstr ""
+msgstr "Dia de entrega"
 
 #: cms/templates/edit_subsection.html
 msgid "Due Time"
-msgstr ""
+msgstr "Data de entrega"
 
 #: cms/templates/edit_subsection.html
 msgid "Remove due date"
-msgstr ""
+msgstr "Remover data de entrega"
 
 #: cms/templates/edit_subsection.html
 msgid "Preview Drafts"
-msgstr ""
+msgstr "Previsionar rascunho"
 
 #: cms/templates/edit_subsection.html cms/templates/index.html
 #: cms/templates/overview.html cms/templates/unit.html
 msgid "View Live"
-msgstr ""
+msgstr "Ver ao Vivo"
 
 #: cms/templates/error.html
 msgid "Internal Server Error"
@@ -8467,15 +8467,15 @@ msgstr ""
 
 #: cms/templates/error.html
 msgid "Back to dashboard"
-msgstr ""
+msgstr "Voltar ao Quadro"
 
 #: cms/templates/export.html cms/templates/export.html
 msgid "Course Export"
-msgstr ""
+msgstr "Exportar Curso"
 
 #: cms/templates/export.html
 msgid "About Exporting Courses"
-msgstr ""
+msgstr "Sobre Exportação de Cursos"
 
 #. Translators: ".tar.gz" is a file extension, and should not be translated
 #: cms/templates/export.html
@@ -8500,19 +8500,19 @@ msgstr ""
 
 #: cms/templates/export.html
 msgid "Course Structure"
-msgstr ""
+msgstr "Estrutura do Curso"
 
 #: cms/templates/export.html
 msgid "Individual Problems"
-msgstr ""
+msgstr "Problemas Individuais"
 
 #: cms/templates/export.html
 msgid "Course Assets"
-msgstr ""
+msgstr "Materiais do Curso"
 
 #: cms/templates/export.html
 msgid "Course Settings"
-msgstr ""
+msgstr "Definições do Curso"
 
 #: cms/templates/export.html
 msgid "Data {em_start}not exported{em_end} with your course:"
@@ -8532,7 +8532,7 @@ msgstr ""
 
 #: cms/templates/export.html
 msgid "Certificates"
-msgstr ""
+msgstr "Certificados"
 
 #: cms/templates/export.html
 msgid "Why export a course?"
@@ -8544,7 +8544,7 @@ msgstr ""
 
 #: cms/templates/export.html
 msgid "What content is exported?"
-msgstr ""
+msgstr "Que conteúdo é exportado"
 
 #: cms/templates/export.html
 msgid "Only the course content and structure (including sections, subsections, and units) are exported. Other data, including student data, grading information, discussion forum data, course settings, and course team information, is not exported."
@@ -8606,60 +8606,60 @@ msgstr ""
 
 #: cms/templates/howitworks.html
 msgid "Welcome"
-msgstr ""
+msgstr "Bem vindo"
 
 #: cms/templates/howitworks.html
 msgid "Welcome to"
-msgstr ""
+msgstr "Bem vindo ao"
 
 #: cms/templates/howitworks.html
 msgid "Studio helps manage your courses online, so you can focus on teaching them"
-msgstr ""
+msgstr "Estúdio ajuda-o a organizar cursos online, para que se possa focar em ensiná-los "
 
 #: cms/templates/howitworks.html
 msgid "Studio's Many Features"
-msgstr ""
+msgstr "Múltiplas Valências do Estúdio"
 
 #: cms/templates/howitworks.html cms/templates/howitworks.html
 msgid "Studio Helps You Keep Your Courses Organized"
-msgstr ""
+msgstr "Estúdio ajuda-o a manter os seus cursos organizados"
 
 #: cms/templates/howitworks.html
 msgid "Keeping Your Course Organized"
-msgstr ""
+msgstr "Manter os seus cursos organizados"
 
 #: cms/templates/howitworks.html
 msgid "The backbone of your course is how it is organized. Studio offers an <strong>Outline</strong> editor, providing a simple hierarchy and easy drag and drop to help you and your students stay organized."
-msgstr ""
+msgstr "A espinha dorsal do seu curso é a forma como está organizado. Estúdio oferece-lhe um editor <strong>intuitivo</strong> com uma hierarquia simples onde basta arrastar e largar."
 
 #: cms/templates/howitworks.html
 msgid "Simple Organization For Content"
-msgstr ""
+msgstr "Organização Simples de Conteúdo"
 
 #: cms/templates/howitworks.html
 msgid "Studio uses a simple hierarchy of <strong>sections</strong> and <strong>subsections</strong> to organize your content."
-msgstr ""
+msgstr "O Estúdio usa uma hierarquia de <strong>secções</strong> e <strong>subscções</strong> para organizar o seu conteúdo"
 
 #: cms/templates/howitworks.html
 msgid "Change Your Mind Anytime"
-msgstr ""
+msgstr "Mude de ideias a qualquer momento"
 
 #: cms/templates/howitworks.html
 msgid "Draft your outline and build content anywhere. Simple drag and drop tools let your reorganize quickly."
-msgstr ""
+msgstr "Faça um rascunho e construa conteúdo a qualquer momento. Basta arrastar e largar, para reorganizar conteúdo rápido."
 
 #: cms/templates/howitworks.html
 msgid "Go A Week Or A Semester At A Time"
-msgstr ""
+msgstr "Faça uma semana ou semestre de cada vez"
 
 #: cms/templates/howitworks.html
 msgid "Build and release <strong>sections</strong> to your students incrementally. You don't have to have it all done at once."
-msgstr ""
+msgstr "Cosntrua e publique <strong>secções</strong> de forma faseada. não precisa de fazer tudo de uma vez."
 
 #: cms/templates/howitworks.html cms/templates/howitworks.html
 #: cms/templates/howitworks.html
 msgid "Learning is More than Just Lectures"
-msgstr ""
+msgstr "Aprender é mais do que Lições"
 
 #: cms/templates/howitworks.html
 msgid "Studio lets you weave your content together in a way that reinforces learning &mdash; short video lectures interleaved with exercises and more. Insert videos and author a wide variety of exercise types with just a few clicks."
@@ -8667,7 +8667,7 @@ msgstr ""
 
 #: cms/templates/howitworks.html
 msgid "Create Learning Pathways"
-msgstr ""
+msgstr "Crie Caminhos de Aprendizgem"
 
 #: cms/templates/howitworks.html
 msgid "Help your students understand a small interactive piece at a time with multimedia, HTML, and exercises."
@@ -8843,7 +8843,7 @@ msgstr ""
 
 #: cms/templates/import.html
 msgid "Success"
-msgstr ""
+msgstr "Sucesso"
 
 #: cms/templates/import.html
 msgid "Your imported content has now been integrated into this course"
@@ -8936,7 +8936,7 @@ msgstr ""
 
 #: cms/templates/index.html
 msgid "Create a New Course"
-msgstr ""
+msgstr "Crie um Novo Curso"
 
 #: cms/templates/index.html
 msgid "Required Information to Create a New Course"
@@ -8952,11 +8952,11 @@ msgstr ""
 
 #: cms/templates/index.html cms/templates/settings.html
 msgid "Organization"
-msgstr ""
+msgstr "Organização"
 
 #: cms/templates/index.html
 msgid "e.g. UniversityX or OrganizationX"
-msgstr ""
+msgstr "ex: UniversidadeX ou OrganizaçãoX"
 
 #: cms/templates/index.html
 msgid "The name of the organization sponsoring the course."
@@ -8968,11 +8968,11 @@ msgstr ""
 
 #: cms/templates/index.html
 msgid "This cannot be changed, but you can set a different display name in Advanced Settings later."
-msgstr ""
+msgstr "Isto não poderá ser alterado, mas poderá mais tarde mudar o nome público nas definições avançadas."
 
 #: cms/templates/index.html
 msgid "e.g. CS101"
-msgstr ""
+msgstr "ex: CS101"
 
 #: cms/templates/index.html
 msgid "The unique number that identifies your course within your organization."
@@ -8984,11 +8984,11 @@ msgstr ""
 
 #: cms/templates/index.html
 msgid "Course Run"
-msgstr ""
+msgstr "Duração do Curso"
 
 #: cms/templates/index.html
 msgid "e.g. 2014_T1"
-msgstr ""
+msgstr "ex: 2014_T1"
 
 #: cms/templates/index.html
 msgid "The term in which your course will run."
@@ -8996,11 +8996,11 @@ msgstr ""
 
 #: cms/templates/index.html
 msgid "Create"
-msgstr ""
+msgstr "Criar"
 
 #: cms/templates/index.html
 msgid "Course Run:"
-msgstr ""
+msgstr "Duração do Curso"
 
 #: cms/templates/index.html
 msgid "Are you staff on an existing Studio course?"
@@ -9012,7 +9012,7 @@ msgstr ""
 
 #: cms/templates/index.html cms/templates/index.html
 msgid "Create Your First Course"
-msgstr ""
+msgstr "Crie o seu Primeiro Curso"
 
 #: cms/templates/index.html
 msgid "Your new course is just a click away!"
@@ -9048,7 +9048,7 @@ msgstr ""
 
 #: cms/templates/index.html
 msgid "Denied"
-msgstr ""
+msgstr "Impedido"
 
 #: cms/templates/index.html
 msgid "Your request did not meet the criteria/guidelines specified by edX Staff."
@@ -9124,7 +9124,7 @@ msgstr ""
 
 #: cms/templates/login.html cms/templates/login.html
 msgid "Sign In to edX Studio"
-msgstr ""
+msgstr "Ligue-se ao Estúdio da Escola"
 
 #: cms/templates/login.html
 msgid "Don't have a Studio Account? Sign up!"
@@ -9136,7 +9136,7 @@ msgstr ""
 
 #: cms/templates/login.html cms/templates/register.html
 msgid "Email Address"
-msgstr ""
+msgstr "Endereço de Email"
 
 #: cms/templates/login.html cms/templates/widgets/sock.html
 msgid "Studio Support"
@@ -9154,27 +9154,27 @@ msgstr ""
 #: cms/templates/settings_advanced.html cms/templates/settings_graders.html
 #: cms/templates/widgets/header.html
 msgid "Course Team"
-msgstr ""
+msgstr "Equipa do Curso"
 
 #: cms/templates/manage_users.html
 msgid "New Team Member"
-msgstr ""
+msgstr "Novo Membro da Equipa"
 
 #: cms/templates/manage_users.html
 msgid "Add a User to Your Course's Team"
-msgstr ""
+msgstr "Adicione um Usuário à Sua Equipa do Curso"
 
 #: cms/templates/manage_users.html
 msgid "New Team Member Information"
-msgstr ""
+msgstr "Informação sobre o Membro de Equipa Novo"
 
 #: cms/templates/manage_users.html
 msgid "User's Email Address"
-msgstr ""
+msgstr "Endereço de Email do Usuário"
 
 #: cms/templates/manage_users.html
 msgid "e.g. jane.doe@gmail.com"
-msgstr ""
+msgstr "ex: mariasilva@escola.org"
 
 #: cms/templates/manage_users.html
 msgid "Please provide the email address of the course staff member you'd like to add"
@@ -9182,7 +9182,7 @@ msgstr ""
 
 #: cms/templates/manage_users.html
 msgid "Add User"
-msgstr ""
+msgstr "Adicionar Usuário"
 
 #: cms/templates/manage_users.html cms/templates/manage_users.html
 msgid "Current Role:"
@@ -9190,11 +9190,11 @@ msgstr ""
 
 #: cms/templates/manage_users.html cms/templates/manage_users.html
 msgid "You!"
-msgstr ""
+msgstr "Você!"
 
 #: cms/templates/manage_users.html
 msgid "Staff"
-msgstr ""
+msgstr "Administração"
 
 #: cms/templates/manage_users.html
 msgid "send an email message to {email}"
@@ -9214,11 +9214,11 @@ msgstr ""
 
 #: cms/templates/manage_users.html
 msgid "Delete the user, {username}"
-msgstr ""
+msgstr "Remover o usuário, {username} "
 
 #: cms/templates/manage_users.html
 msgid "Add Team Members to This Course"
-msgstr ""
+msgstr "Adicionar Membros de Equipa a Este Curso"
 
 #: cms/templates/manage_users.html
 msgid "Adding team members makes course authoring collaborative. Users must be signed up for Studio and have an active account. "
@@ -9259,43 +9259,43 @@ msgstr ""
 
 #: cms/templates/overview.html cms/templates/overview.html
 msgid "New Section Name"
-msgstr ""
+msgstr "Nome da Nova Secção"
 
 #: cms/templates/overview.html
 msgid "Add a new section name"
-msgstr ""
+msgstr "Insira um novo nome de secção"
 
 #: cms/templates/overview.html cms/templates/overview.html
 msgid "Delete this section"
-msgstr ""
+msgstr "Apagar esta secção"
 
 #: cms/templates/overview.html
 msgid "Drag to re-order"
-msgstr ""
+msgstr "Arraste e largue para reordenar"
 
 #: cms/templates/overview.html cms/templates/overview.html
 msgid "New Subsection"
-msgstr ""
+msgstr "Nova Subsecção"
 
 #: cms/templates/overview.html cms/templates/widgets/units.html
 msgid "New Unit"
-msgstr ""
+msgstr "Nova Unidade"
 
 #: cms/templates/overview.html
 msgid "You haven't added any sections to your course outline yet."
-msgstr ""
+msgstr "Ainda não adicionaste secções ao teu curso."
 
 #: cms/templates/overview.html
 msgid "Add your first section"
-msgstr ""
+msgstr "Adiciona a sua primeira secção"
 
 #: cms/templates/overview.html
 msgid "Collapse All Sections"
-msgstr ""
+msgstr "Fechar Todas as Secções"
 
 #: cms/templates/overview.html
 msgid "New Section"
-msgstr ""
+msgstr "Nova Secção"
 
 #: cms/templates/overview.html
 msgid "This section is not scheduled for release"
@@ -9303,11 +9303,11 @@ msgstr ""
 
 #: cms/templates/overview.html
 msgid "Schedule"
-msgstr ""
+msgstr "Calendário"
 
 #: cms/templates/overview.html
 msgid "Release date:"
-msgstr ""
+msgstr "Data de Início"
 
 #: cms/templates/overview.html
 msgid "Edit section release date"
@@ -9315,11 +9315,11 @@ msgstr ""
 
 #: cms/templates/overview.html
 msgid "Delete section"
-msgstr ""
+msgstr "Apagar secção"
 
 #: cms/templates/overview.html
 msgid "Drag to reorder section"
-msgstr ""
+msgstr "Arraste e largue para reordenar a secção"
 
 #: cms/templates/overview.html
 msgid "Expand/collapse this subsection"
@@ -9327,11 +9327,11 @@ msgstr ""
 
 #: cms/templates/overview.html
 msgid "Delete this subsection"
-msgstr ""
+msgstr "Apagar esta subscção"
 
 #: cms/templates/overview.html
 msgid "Delete subsection"
-msgstr ""
+msgstr "Apagar sebscção"
 
 #: cms/templates/overview.html
 msgid "You can create new sections and subsections, set the release date for sections, and create new units in existing subsections.  You can set the assignment type for subsections that are to be graded, and you can open a subsection for further editing."
@@ -9359,7 +9359,7 @@ msgstr ""
 
 #: cms/templates/register.html
 msgid "Already have a Studio Account? Sign in"
-msgstr ""
+msgstr "Já tem uma conta no Estúdo da Escola? Entre aqui"
 
 #: cms/templates/register.html
 msgid "Ready to start creating online courses? Sign up below and start creating your first edX course today."
@@ -9391,27 +9391,27 @@ msgstr ""
 
 #: cms/templates/register.html
 msgid "Who is Studio for?"
-msgstr ""
+msgstr "Para quem é o Estúdio?"
 
 #: cms/templates/register.html
 msgid "Studio is for anyone that wants to create online courses that leverage the global edX platform. Our users are often faculty members, teaching assistants and course staff, and members of instructional technology groups."
-msgstr ""
+msgstr "O Estúdio é para qualquer pessoa que queira criar cursos online numa plataforma global. Os nossos membros normalmente são membros de universidades, professores ou membros de grupos com interesses na tecnologia da educação."
 
 #: cms/templates/register.html
 msgid "How technically savvy do I need to be to create courses in Studio?"
-msgstr ""
+msgstr "Quantos conhecimentos de tecnologia preciso de ter para criar cursos no Estúdio?"
 
 #: cms/templates/register.html
 msgid "Studio is designed to be easy to use by almost anyone familiar with common web-based authoring environments (Wordpress, Moodle, etc.). No programming knowledge is required, but for some of the more advanced features, a technical background would be helpful. As always, we are here to help, so don't hesitate to dive right in."
-msgstr ""
+msgstr "O Estúdio está desenhado para ser fácil para qualquer pessoa que conheça as ferramentas comuns de criação de conteúdos (Word, Wordpress, Moodle,etc.). Não é preciso conhecimento de programação, mas para algumas funções avançadas é aconselhável ter alguma experiência, mas não se preocupe porque estamos cá para ajudar. "
 
 #: cms/templates/register.html
 msgid "I've never authored a course online before. Is there help?"
-msgstr ""
+msgstr "Nunca criei um curso anteriormente, Existe ajuda?"
 
 #: cms/templates/register.html
 msgid "Absolutely. We have created an online course, edX101, that describes some best practices: from filming video, creating exercises, to the basics of running an online course. Additionally, we're always here to help, just drop us a note."
-msgstr ""
+msgstr "Absolutamente, criamos um cursod e demonstração, edx101, que descreve as melhores  práticas de filmagem, criação de exercícios, e os princípios básicos de gestão de cursos online. Adicionalmente, pode contar com a nossa ajuda."
 
 #: cms/templates/settings.html
 msgid "Schedule &amp; Details Settings"
@@ -9746,7 +9746,7 @@ msgstr ""
 
 #: cms/templates/unit.html cms/templates/ux/reference/unit.html
 msgid "Individual Unit"
-msgstr ""
+msgstr "Unidade Individual"
 
 #: cms/templates/unit.html
 msgid "You are editing a draft."
@@ -9758,7 +9758,7 @@ msgstr "Esta unidade foi publicada originalmente em {date}."
 
 #: cms/templates/unit.html
 msgid "View the Live Version"
-msgstr ""
+msgstr "Ver Versão ao Vivo"
 
 #: cms/templates/unit.html
 msgid "Add New Component"
@@ -9774,19 +9774,19 @@ msgstr "Avançado"
 
 #: cms/templates/unit.html
 msgid "Unit Settings"
-msgstr ""
+msgstr "Definições da Unidade"
 
 #: cms/templates/unit.html
 msgid "Visibility:"
-msgstr ""
+msgstr "Visibilidade:"
 
 #: cms/templates/unit.html
 msgid "Public"
-msgstr ""
+msgstr "Público"
 
 #: cms/templates/unit.html
 msgid "Private"
-msgstr ""
+msgstr "Privado"
 
 #: cms/templates/unit.html
 msgid "This unit has been published. To make changes, you must {link_start}edit a draft{link_end}."
@@ -9810,7 +9810,7 @@ msgstr ""
 
 #: cms/templates/unit.html
 msgid "Delete Draft"
-msgstr ""
+msgstr "Apagar rascunho"
 
 #: cms/templates/unit.html
 msgid "Unit Location"
@@ -9830,7 +9830,7 @@ msgstr "Se você não solicitou isso, você não precisa fazer mais nada. Nós n
 
 #: cms/templates/emails/activation_email_subject.txt
 msgid "Your account for edX Studio"
-msgstr ""
+msgstr "A sua conta no Estúdio da Escola"
 
 #: cms/templates/emails/course_creator_admin_subject.txt
 msgid "{email} has requested Studio course creator privileges on edge"
@@ -9940,11 +9940,11 @@ msgstr ""
 
 #: cms/templates/widgets/header.html
 msgid "How Studio Works"
-msgstr ""
+msgstr "Como funciona o Estúdio"
 
 #: cms/templates/widgets/header.html
 msgid "Studio Help"
-msgstr ""
+msgstr "Ajuda do Estúdio"
 
 #: cms/templates/widgets/metadata-edit.html
 msgid "Launch Latex Source Compiler"
@@ -9996,7 +9996,7 @@ msgstr ""
 
 #: cms/templates/widgets/sock.html
 msgid "edX Studio Help"
-msgstr ""
+msgstr "Ajuda Estúdo Escola"
 
 #: cms/templates/widgets/sock.html
 msgid "Need help with Studio? Creating a course is complex, so we're here to help. Take advantage of our documentation, help center, as well as our edX101 introduction course for course authors."
