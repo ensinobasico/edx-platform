@@ -87,7 +87,7 @@ msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2014-03-02 15:08-0500\n"
-"PO-Revision-Date: 2014-03-15 21:26+0100\n"
+"PO-Revision-Date: 2014-03-15 22:26+0100\n"
 "Last-Translator: David Azevedo <davidc.azevedogmail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/edx-platform/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
@@ -8186,7 +8186,7 @@ msgstr "Entre em contacto com o Suporte da Escola"
 #: cms/templates/asset_index.html cms/templates/asset_index.html
 #: cms/templates/widgets/header.html
 msgid "Files &amp; Uploads"
-msgstr ""
+msgstr "Ficheiros e Uploads"
 
 #: cms/templates/asset_index.html
 msgid "Uploading…"
@@ -8199,7 +8199,7 @@ msgstr "Escolher arquivo"
 #: cms/templates/asset_index.html cms/templates/asset_index.html
 #: cms/templates/asset_index.html
 msgid "Upload New File"
-msgstr ""
+msgstr "Upload Novo Ficheiro"
 
 #: cms/templates/asset_index.html
 msgid "Load Another File"
@@ -8209,14 +8209,14 @@ msgstr ""
 #: cms/templates/edit-tabs.html cms/templates/overview.html
 #: cms/templates/textbooks.html cms/templates/widgets/header.html
 msgid "Content"
-msgstr ""
+msgstr "Conteúdo"
 
 #: cms/templates/asset_index.html cms/templates/container.html
 #: cms/templates/course_info.html cms/templates/edit-tabs.html
 #: cms/templates/index.html cms/templates/manage_users.html
 #: cms/templates/overview.html cms/templates/textbooks.html
 msgid "Page Actions"
-msgstr ""
+msgstr "Ações da Página"
 
 #: cms/templates/asset_index.html
 msgid "What files are listed here?"
@@ -8253,7 +8253,7 @@ msgstr ""
 
 #: cms/templates/asset_index.html
 msgid "close alert"
-msgstr ""
+msgstr "Fechar alerta"
 
 #: cms/templates/checklists.html cms/templates/export.html
 #: cms/templates/export_git.html cms/templates/import.html
@@ -8317,7 +8317,7 @@ msgstr ""
 
 #: cms/templates/course_info.html cms/templates/course_info.html
 msgid "Course Updates"
-msgstr ""
+msgstr "Novidades do Curso"
 
 #: cms/templates/course_info.html
 msgid "New Update"
@@ -8325,7 +8325,7 @@ msgstr "Novo update"
 
 #: cms/templates/course_info.html
 msgid "Use course updates to notify students of important dates or exams, highlight particular discussions in the forums, announce schedule changes, and respond to student questions. You add or edit updates in HTML."
-msgstr ""
+msgstr "Use as atualizações do curso para notificar os estudantes de datas importantes ou exames, realce discussões particulares nos fóruns, anuncie mudanças no cronograma e responda a perguntas dos alunos. Você pode adicionar ou editar as atualizações em HTML."
 
 #: cms/templates/edit-tabs.html cms/templates/export.html
 #: cms/templates/widgets/header.html
@@ -8379,7 +8379,7 @@ msgstr "Unidades"
 
 #: cms/templates/edit_subsection.html
 msgid "Subsection Settings"
-msgstr ""
+msgstr "Definições da Subsecção"
 
 #: cms/templates/edit_subsection.html cms/templates/overview.html
 msgid "Release Day"
@@ -8412,23 +8412,23 @@ msgstr ""
 
 #: cms/templates/edit_subsection.html
 msgid "Graded as:"
-msgstr ""
+msgstr "Avaliação como:"
 
 #: cms/templates/edit_subsection.html
 msgid "Set a due date"
-msgstr ""
+msgstr "Defina um dia de término"
 
 #: cms/templates/edit_subsection.html
 msgid "Due Day"
-msgstr "Dia de entrega"
+msgstr "Dia de término"
 
 #: cms/templates/edit_subsection.html
 msgid "Due Time"
-msgstr "Data de entrega"
+msgstr "Data de término"
 
 #: cms/templates/edit_subsection.html
 msgid "Remove due date"
-msgstr "Remover data de entrega"
+msgstr "Remover data de término"
 
 #: cms/templates/edit_subsection.html
 msgid "Preview Drafts"
@@ -9068,15 +9068,15 @@ msgstr "Precisa de ajuda?"
 
 #: cms/templates/index.html
 msgid "If you are new to Studio and having trouble getting started, there are a few things that may be of help:"
-msgstr ""
+msgstr "Se você é novo no Estúdio, podemos ajudar das seguintes formas:"
 
 #: cms/templates/index.html
 msgid "Get started by reading Studio's Documentation"
-msgstr ""
+msgstr "Comece por ler a Documentação Disponível"
 
 #: cms/templates/index.html
 msgid "Request help with Studio"
-msgstr ""
+msgstr "Peça-nos ajuda directamente"
 
 #: cms/templates/index.html cms/templates/index.html cms/templates/index.html
 msgid "Can I create courses in Studio?"
@@ -9299,7 +9299,7 @@ msgstr "Nova Secção"
 
 #: cms/templates/overview.html
 msgid "This section is not scheduled for release"
-msgstr ""
+msgstr "Esta secção não está programada para publicação"
 
 #: cms/templates/overview.html
 msgid "Schedule"
@@ -9311,7 +9311,7 @@ msgstr "Data de Início"
 
 #: cms/templates/overview.html
 msgid "Edit section release date"
-msgstr ""
+msgstr "Editar o dia de publicação da secção"
 
 #: cms/templates/overview.html
 msgid "Delete section"
@@ -9323,7 +9323,7 @@ msgstr "Arraste e largue para reordenar a secção"
 
 #: cms/templates/overview.html
 msgid "Expand/collapse this subsection"
-msgstr ""
+msgstr "Expandir/Colapsar esta subsecção"
 
 #: cms/templates/overview.html
 msgid "Delete this subsection"
@@ -9335,23 +9335,23 @@ msgstr "Apagar sebscção"
 
 #: cms/templates/overview.html
 msgid "You can create new sections and subsections, set the release date for sections, and create new units in existing subsections.  You can set the assignment type for subsections that are to be graded, and you can open a subsection for further editing."
-msgstr ""
+msgstr "Você pode criar novas secções e subsecções, definir a data de lançamento de secções, e criar novas unidades nas subsecções existentes. Você pode definir o tipo de atribuição para as subsecções que serão classificadas, e pode abrir uma subsecção para posterior edição."
 
 #: cms/templates/overview.html
 msgid "In addition, you can drag and drop sections, subsections, and units to reorganize your course."
-msgstr ""
+msgstr "Além disso, você pode arrastar e soltar as secções, subsecções e unidades, de forma a reorganizar o seu curso."
 
 #: cms/templates/overview.html
 msgid "Section Release Date"
-msgstr ""
+msgstr "Data de Lançamento Secção"
 
 #: cms/templates/overview.html
 msgid "On the date set below, this section - {name} - will be released to students. Any units marked private will only be visible to admins."
-msgstr ""
+msgstr "Na data definida abaixo, esta secção - {name} - será lançada para os alunos. Qualquer unidade marcada como privada só estará visível para os administradores."
 
 #: cms/templates/overview.html
 msgid "Form Actions"
-msgstr ""
+msgstr "Ações do Formulário "
 
 #: cms/templates/register.html
 msgid "Sign Up for edX Studio"
@@ -9407,7 +9407,7 @@ msgstr "O Estúdio está desenhado para ser fácil para qualquer pessoa que conh
 
 #: cms/templates/register.html
 msgid "I've never authored a course online before. Is there help?"
-msgstr "Nunca criei um curso anteriormente, Existe ajuda?"
+msgstr "Nunca criei um curso anteriormente. Existe ajuda?"
 
 #: cms/templates/register.html
 msgid "Absolutely. We have created an online course, edX101, that describes some best practices: from filming video, creating exercises, to the basics of running an online course. Additionally, we're always here to help, just drop us a note."
@@ -9415,19 +9415,19 @@ msgstr "Absolutamente, criamos um cursod e demonstração, edx101, que descreve 
 
 #: cms/templates/settings.html
 msgid "Schedule &amp; Details Settings"
-msgstr ""
+msgstr "Calendário; Detalhes das Definições"
 
 #: cms/templates/settings.html
 msgid "Schedule & Details"
-msgstr ""
+msgstr "Calendário e Detalhes"
 
 #: cms/templates/settings.html
 msgid "Basic Information"
-msgstr ""
+msgstr "Informação Básica"
 
 #: cms/templates/settings.html
 msgid "The nuts and bolts of your course"
-msgstr ""
+msgstr "Os parâmetros do seu curso"
 
 #: cms/templates/settings.html cms/templates/settings.html
 #: cms/templates/settings.html
@@ -9452,7 +9452,7 @@ msgstr ""
 
 #: cms/templates/settings.html
 msgid "Promoting Your Course with edX"
-msgstr ""
+msgstr "Promover o seu Curso na Escola"
 
 #: cms/templates/settings.html
 msgid "Your course summary page will not be viewable until your course has been announced. To provide content for the page and preview it, follow the instructions provided by your <abbr title=\"Program Manager\">PM</abbr>."
@@ -9460,27 +9460,27 @@ msgstr ""
 
 #: cms/templates/settings.html
 msgid "Course Schedule"
-msgstr ""
+msgstr "Calendário do Curso"
 
 #: cms/templates/settings.html
 msgid "Dates that control when your course can be viewed"
-msgstr ""
+msgstr "Datas que controlam quando o seu curso está ao Vivo"
 
 #: cms/templates/settings.html
 msgid "First day the course begins"
-msgstr ""
+msgstr "Primeiro dia em que começa o curso"
 
 #: cms/templates/settings.html
 msgid "Course Start Time"
-msgstr ""
+msgstr "Data de Início do Curso"
 
 #: cms/templates/settings.html
 msgid "Course End Date"
-msgstr ""
+msgstr "Data de Fim do Curso"
 
 #: cms/templates/settings.html
 msgid "Last day your course is active"
-msgstr ""
+msgstr "ùltimo dia em que o curso está activo"
 
 #: cms/templates/settings.html
 msgid "Course End Time"
@@ -9488,31 +9488,31 @@ msgstr ""
 
 #: cms/templates/settings.html
 msgid "Enrollment Start Date"
-msgstr ""
+msgstr "Início das Inscrições"
 
 #: cms/templates/settings.html
 msgid "First day students can enroll"
-msgstr ""
+msgstr "Primeiro dia de Inscrições"
 
 #: cms/templates/settings.html
 msgid "Enrollment Start Time"
-msgstr ""
+msgstr "Hora de início das inscrições"
 
 #: cms/templates/settings.html
 msgid "Enrollment End Date"
-msgstr ""
+msgstr "Fim das Inscrições"
 
 #: cms/templates/settings.html
 msgid "Last day students can enroll"
-msgstr ""
+msgstr "Último dia de isncrições"
 
 #: cms/templates/settings.html
 msgid "Enrollment End Time"
-msgstr ""
+msgstr "Fim das inscrições"
 
 #: cms/templates/settings.html
 msgid "These Dates Are Not Used When Promoting Your Course"
-msgstr ""
+msgstr "Estas datas não são usadas na promoção do seu curso"
 
 #: cms/templates/settings.html
 msgid "These dates impact <strong>when your courseware can be viewed</strong>, but they are <strong>not the dates shown on your course summary page</strong>.  To provide the course start and registration dates as shown on your course summary page, follow the instructions provided by your <abbr title=\"Program Manager\">PM</abbr> or Conrad Warre <a rel=\"email\" class=\"action action-email\" href=\"mailto:conrad@edx.org\">(conrad@edx.org)</a>."
@@ -9520,36 +9520,36 @@ msgstr ""
 
 #: cms/templates/settings.html
 msgid "Introducing Your Course"
-msgstr ""
+msgstr "Introdução ao Seu Curso"
 
 #: cms/templates/settings.html
 msgid "Information for prospective students"
-msgstr ""
+msgstr "Informação para potenciais alunos interessados"
 
 #: cms/templates/settings.html
 msgid "Course Short Description"
-msgstr ""
+msgstr "Descrição Curta do Curso"
 
 #: cms/templates/settings.html
 msgid "Appears on the course catalog page when students roll over the course name. Limit to ~150 characters"
-msgstr ""
+msgstr "Aparece no catálogo de cursos quando os alunos se inscrevem. Limite até 150 caracteres."
 
 #: cms/templates/settings.html
 msgid "Course Overview"
-msgstr ""
+msgstr "Descrição do Curso. Altere a parte a negrito de acordo com o seu desejo."
 
 #: cms/templates/settings.html
 msgid "your course summary page"
-msgstr ""
+msgstr "a página de sumário do seu curso"
 
 #: cms/templates/settings.html
 msgid "Introductions, prerequisites, FAQs that are used on %s (formatted in HTML)"
-msgstr ""
+msgstr "Introduções. Pŕe-requisitos, FAQs que são usadas em %s formatadas em HTML"
 
 #: cms/templates/settings.html cms/templates/settings.html
 #: cms/templates/settings.html
 msgid "Course Image"
-msgstr ""
+msgstr "Imagem do Curso"
 
 #: cms/templates/settings.html
 msgid "You can manage this image along with all of your other <a href='{}'>files &amp; uploads</a>"
@@ -9561,67 +9561,67 @@ msgstr ""
 
 #: cms/templates/settings.html
 msgid "Please provide a valid path and name to your course image (Note: only JPEG or PNG format supported)"
-msgstr ""
+msgstr "Providencie um caminho correcto para a imagem do seu curso. Só aceitamos PNG ou JPEG."
 
 #: cms/templates/settings.html
 msgid "Upload Course Image"
-msgstr ""
+msgstr "Carregue uma Imagem do Curso"
 
 #: cms/templates/settings.html
 msgid "Course Introduction Video"
-msgstr ""
+msgstr "Vídeo de Introdução do Curso"
 
 #: cms/templates/settings.html
 msgid "Delete Current Video"
-msgstr ""
+msgstr "Apagar vídeo corrente"
 
 #: cms/templates/settings.html
 msgid "Enter your YouTube video's ID (along with any restriction parameters)"
-msgstr ""
+msgstr "Insita o seu ID do YouTube, (bem como quaisquer parâmetros de restrição)"
 
 #: cms/templates/settings.html
 msgid "Requirements"
-msgstr ""
+msgstr "Requisitos"
 
 #: cms/templates/settings.html
 msgid "Expectations of the students taking this course"
-msgstr ""
+msgstr "Expectativas dos alunos durante este curso"
 
 #: cms/templates/settings.html
 msgid "Hours of Effort per Week"
-msgstr ""
+msgstr "Horas de esforço por semana"
 
 #: cms/templates/settings.html
 msgid "Time spent on all course work"
-msgstr ""
+msgstr "Tempo total de trabalho no curso"
 
 #: cms/templates/settings.html
 msgid "How are these settings used?"
-msgstr ""
+msgstr "Como são utilizadas estas definições?"
 
 #: cms/templates/settings.html
 msgid "Your course's schedule determines when students can enroll in and begin a course."
-msgstr ""
+msgstr "O calendário do curso determina quando os alunos se podem inscrever e começar a frequência no curso."
 
 #: cms/templates/settings.html
 msgid "Other information from this page appears on the About page for your course. This information includes the course overview, course image, introduction video, and estimated time requirements. Students use About pages to choose new courses to take."
-msgstr ""
+msgstr "Outra informação sobre esta página aparece na página Sobre."
 
 #: cms/templates/settings.html cms/templates/settings_advanced.html
 #: cms/templates/settings_graders.html
 msgid "Other Course Settings"
-msgstr ""
+msgstr "Outras Definições de Curso"
 
 #: cms/templates/settings.html cms/templates/settings_advanced.html
 #: cms/templates/settings_graders.html cms/templates/widgets/header.html
 msgid "Grading"
-msgstr ""
+msgstr "Avaliação"
 
 #: cms/templates/settings.html cms/templates/settings_advanced.html
 #: cms/templates/settings_advanced.html cms/templates/settings_graders.html
 #: cms/templates/widgets/header.html
 msgid "Advanced Settings"
-msgstr ""
+msgstr "Definições Avançadas"
 
 #: cms/templates/settings_advanced.html
 msgid "Your policy changes have been saved."
@@ -9641,11 +9641,11 @@ msgstr ""
 
 #: cms/templates/settings_advanced.html
 msgid "What do advanced settings do?"
-msgstr ""
+msgstr "O que fazem as definições avançadas?"
 
 #: cms/templates/settings_advanced.html
 msgid "Advanced settings control specific course functionality. On this page, you can edit manual policies, which are JSON-based key and value pairs that control specific course settings."
-msgstr ""
+msgstr "As definições avançadas controlam funcionalidades específicas do curso."
 
 #: cms/templates/settings_advanced.html
 msgid "Any policies you modify here override all other information you've defined elsewhere in Studio. Do not edit policies unless you are familiar with both their purpose and syntax."
@@ -9657,31 +9657,31 @@ msgstr ""
 
 #: cms/templates/settings_advanced.html cms/templates/settings_graders.html
 msgid "Details &amp; Schedule"
-msgstr ""
+msgstr "Detalhes; Calendário"
 
 #: cms/templates/settings_graders.html
 msgid "Grading Settings"
-msgstr ""
+msgstr "Definições de Avaliação"
 
 #: cms/templates/settings_graders.html
 msgid "Overall Grade Range"
-msgstr ""
+msgstr "Escala de Avaliação"
 
 #: cms/templates/settings_graders.html
 msgid "Your overall grading scale for student final grades"
-msgstr ""
+msgstr "Escala de Avalição Final"
 
 #: cms/templates/settings_graders.html
 msgid "Grading Rules &amp; Policies"
-msgstr ""
+msgstr "Regulamento da Avaliação"
 
 #: cms/templates/settings_graders.html
 msgid "Deadlines, requirements, and logistics around grading student work"
-msgstr ""
+msgstr "Datas de entrega, requisitos, e logística de avaliação do trabalho"
 
 #: cms/templates/settings_graders.html
 msgid "Grace Period on Deadline:"
-msgstr ""
+msgstr "Perído de prolongamento de data de entrega"
 
 #: cms/templates/settings_graders.html
 msgid "Leeway on due dates"
@@ -9689,7 +9689,7 @@ msgstr ""
 
 #: cms/templates/settings_graders.html
 msgid "Assignment Types"
-msgstr ""
+msgstr "Tipos de Tarefas"
 
 #: cms/templates/settings_graders.html
 msgid "Categories and labels for any exercises that are gradable"
@@ -9697,7 +9697,7 @@ msgstr ""
 
 #: cms/templates/settings_graders.html
 msgid "New Assignment Type"
-msgstr ""
+msgstr "Novo Tipo de Tarefa"
 
 #: cms/templates/settings_graders.html
 msgid "You can use the slider under Overall Grade Range to specify whether your course is pass/fail or graded by letter, and to establish the thresholds for each grade."
@@ -9713,20 +9713,20 @@ msgstr ""
 
 #: cms/templates/studio_vertical_wrapper.html
 msgid "Expand or Collapse"
-msgstr ""
+msgstr "Expandir ou Colapsar"
 
 #: cms/templates/textbooks.html cms/templates/textbooks.html
 #: cms/templates/widgets/header.html
 msgid "Textbooks"
-msgstr ""
+msgstr "Textos Escolares"
 
 #: cms/templates/textbooks.html
 msgid "You have unsaved changes. Do you really want to leave this page?"
-msgstr ""
+msgstr "Você tem mudanças por gravar. Quer realmetne abandonar esta página?"
 
 #: cms/templates/textbooks.html
 msgid "New Textbook"
-msgstr ""
+msgstr "Novo Texto Escolar"
 
 #: cms/templates/textbooks.html
 msgid "Why should I break my textbook into chapters?"
@@ -9734,15 +9734,15 @@ msgstr "Por que eu devo segmentar o meu livro didático em capítulos?"
 
 #: cms/templates/textbooks.html
 msgid "Breaking your textbook into multiple chapters reduces loading times for students, especially those with slow Internet connections. Breaking up textbooks into chapters can also help students more easily find topic-based information."
-msgstr ""
+msgstr "Repartir o seu Manual Escolar em vários capítulos e textos diminui o tempo de carregamento para os seus estudantes com coneções de internet lentas. Além de ajudar os alunos a procurar um tópico específico"
 
 #: cms/templates/textbooks.html
 msgid "What if my book isn't divided into chapters?"
-msgstr ""
+msgstr "E se o meu manual não está dividido em capítulos?"
 
 #: cms/templates/textbooks.html
 msgid "If your textbook doesn't have individual chapters, you can upload the entire text as a single chapter and enter a name of your choice in the Chapter Name field."
-msgstr ""
+msgstr "Nesse caso, pode fazer o upload de um texto inteiro como um capítulo e escreva o nome de sua preferência no Campo do Nome de Capítulo"
 
 #: cms/templates/unit.html cms/templates/ux/reference/unit.html
 msgid "Individual Unit"
@@ -9750,7 +9750,7 @@ msgstr "Unidade Individual"
 
 #: cms/templates/unit.html
 msgid "You are editing a draft."
-msgstr ""
+msgstr "Está a editar um esboço"
 
 #: cms/templates/unit.html
 msgid "This unit was originally published on {date}."
@@ -9762,11 +9762,11 @@ msgstr "Ver Versão ao Vivo"
 
 #: cms/templates/unit.html
 msgid "Add New Component"
-msgstr ""
+msgstr "Adicionar um Novo Componente"
 
 #: cms/templates/unit.html
 msgid "Common Problem Types"
-msgstr ""
+msgstr "Tipos de Problemas Comuns"
 
 #: cms/templates/unit.html
 msgid "Advanced"
@@ -9798,7 +9798,7 @@ msgstr ""
 
 #: cms/templates/unit.html
 msgid "This unit is scheduled to be released to <strong>students</strong>"
-msgstr ""
+msgstr "Esta unidade será disponibilizada aos <strong>alunos</strong>"
 
 #: cms/templates/unit.html
 msgid "on {date}"
@@ -9806,7 +9806,7 @@ msgstr "no dia {date}"
 
 #: cms/templates/unit.html
 msgid "with the subsection {link_start}{name}{link_end}"
-msgstr ""
+msgstr "com a subsecção {link_start}{name}{link_end}"
 
 #: cms/templates/unit.html
 msgid "Delete Draft"
@@ -9814,15 +9814,15 @@ msgstr "Apagar rascunho"
 
 #: cms/templates/unit.html
 msgid "Unit Location"
-msgstr ""
+msgstr "Localização da Unidade"
 
 #: cms/templates/unit.html
 msgid "Unit Identifier:"
-msgstr ""
+msgstr "Identificador da Unidade"
 
 #: cms/templates/emails/activation_email.txt
 msgid "Thank you for signing up for edX Studio! To activate your account, please copy and paste this address into your web browser's address bar:"
-msgstr ""
+msgstr "Obrigado por se inscrever no Estúdio da Escola. Para activar a sua conta, por favor copie e cole este endereço no seu web browser."
 
 #: cms/templates/emails/activation_email.txt
 msgid "If you didn't request this, you don't need to do anything; you won't receive any more email from us. Please do not reply to this e-mail; if you require assistance, check the help section of the edX web site."
@@ -9870,24 +9870,24 @@ msgstr "Um link de ativação foi enviado para {email} junto a instruções para
 
 #: cms/templates/widgets/footer.html
 msgid "All rights reserved."
-msgstr ""
+msgstr "Todos os direitos reservados"
 
 #: cms/templates/widgets/footer.html cms/templates/widgets/header.html
 #: cms/templates/widgets/sock.html
 msgid "Contact Us"
-msgstr ""
+msgstr "Contacte-nos"
 
 #: cms/templates/widgets/header.html
 msgid "Current Course:"
-msgstr ""
+msgstr "Curso actual"
 
 #: cms/templates/widgets/header.html
 msgid "{course_name}'s Navigation:"
-msgstr ""
+msgstr "{course_name} Navegação:"
 
 #: cms/templates/widgets/header.html
 msgid "Outline"
-msgstr ""
+msgstr "Esboço"
 
 #: cms/templates/widgets/header.html
 msgid "Updates"
@@ -9895,19 +9895,19 @@ msgstr ""
 
 #: cms/templates/widgets/header.html
 msgid "Schedule &amp; Details"
-msgstr ""
+msgstr "Calendário e Detalhes"
 
 #: cms/templates/widgets/header.html
 msgid "Checklists"
-msgstr ""
+msgstr "Lista de Tarefas"
 
 #: cms/templates/widgets/header.html
 msgid "Import"
-msgstr ""
+msgstr "Importar"
 
 #: cms/templates/widgets/header.html
 msgid "Export"
-msgstr ""
+msgstr "Exportar"
 
 #: cms/templates/widgets/header.html
 msgid "Help &amp; Account Navigation"
@@ -9919,16 +9919,16 @@ msgstr "Este é um documento em PDF"
 
 #: cms/templates/widgets/header.html
 msgid "Studio Documentation"
-msgstr ""
+msgstr "Documentação do Estúdio"
 
 #: cms/templates/widgets/header.html cms/templates/widgets/sock.html
 #: cms/templates/widgets/sock.html
 msgid "Studio Help Center"
-msgstr ""
+msgstr "Estúdio Help Center"
 
 #: cms/templates/widgets/header.html
 msgid "Currently signed in as:"
-msgstr ""
+msgstr "Está a utilizar o Estúdio como:"
 
 #: cms/templates/widgets/header.html
 msgid "Sign Out"
@@ -9936,7 +9936,7 @@ msgstr "Sair"
 
 #: cms/templates/widgets/header.html
 msgid "You're not currently signed in"
-msgstr ""
+msgstr "Não está online"
 
 #: cms/templates/widgets/header.html
 msgid "How Studio Works"
@@ -9960,15 +9960,15 @@ msgstr "Escolha Múltipla"
 
 #: cms/templates/widgets/problem-edit.html
 msgid "Checkboxes"
-msgstr ""
+msgstr "Questões Fechadas"
 
 #: cms/templates/widgets/problem-edit.html
 msgid "Text Input"
-msgstr ""
+msgstr "Input de Texto"
 
 #: cms/templates/widgets/problem-edit.html
 msgid "Numerical Input"
-msgstr ""
+msgstr "Input Numérico"
 
 #: cms/templates/widgets/problem-edit.html
 msgid "Dropdown"
@@ -9988,15 +9988,15 @@ msgstr "Ver Soluções"
 
 #: cms/templates/widgets/problem-edit.html
 msgid "Label"
-msgstr ""
+msgstr "Rótulo"
 
 #: cms/templates/widgets/sock.html
 msgid "Looking for Help with Studio?"
-msgstr ""
+msgstr "Procura ajuda no Estúdio?"
 
 #: cms/templates/widgets/sock.html
 msgid "edX Studio Help"
-msgstr "Ajuda Estúdo Escola"
+msgstr "Ajuda no Estúdo"
 
 #: cms/templates/widgets/sock.html
 msgid "Need help with Studio? Creating a course is complex, so we're here to help. Take advantage of our documentation, help center, as well as our edX101 introduction course for course authors."
@@ -10004,7 +10004,7 @@ msgstr "Precisa de ajuda com o Studio? A criação de um curso é complexa, por 
 
 #: cms/templates/widgets/sock.html
 msgid "Download Studio Documentation"
-msgstr ""
+msgstr "Descarregue Documentação do Estúdio"
 
 #: cms/templates/widgets/sock.html cms/templates/widgets/sock.html
 msgid "How to use Studio to build your course"
@@ -10016,11 +10016,11 @@ msgstr ""
 
 #: cms/templates/widgets/sock.html
 msgid "Contact us about Studio"
-msgstr ""
+msgstr "Cotnacte-nos sobre o Estúdio"
 
 #: cms/templates/widgets/sock.html
 msgid "Have problems, questions, or suggestions about Studio? We're also here to listen to any feedback you want to share."
-msgstr ""
+msgstr "Tem problemas ou perguntas? Gostamos de ouvir o seu feedback."
 
 #: cms/templates/widgets/tabs-aggregator.html
 msgid "name"
