@@ -1,108 +1,31 @@
-# #-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#
-# edX community translations have been downloaded from Portuguese (Brazil) (http://www.transifex.com/projects/p/edx-platform/language/pt_BR/).
-# Copyright (C) 2014 EdX
-# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-#
-# Translators:
-# brk0_0, 2013
-# Filipe Oliveira <contacto@fmoliveira.com.br>, 2013
-# LucasPPires <lucaspylespires@hotmail.com>, 2014
-# LucasPPires <lucaspylespires@hotmail.com>, 2014
-# niels006 <niels006@gmail.com>, 2014
-# niels006 <niels006@gmail.com>, 2014
-# brk0_0, 2013
-# RenataBarboza, 2013
-# RenataBarboza, 2013-2014
-# rpietrobon <pietr007@gmail.com>, 2013-2014
-# #-#-#-#-#  django-studio.po (edx-platform)  #-#-#-#-#
 # edX translation file.
 # Copyright (C) 2014 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 #
 # Translators:
-# brk0_0, 2013
-# Filipe Oliveira <contacto@fmoliveira.com.br>, 2013
-# LucasPPires <lucaspylespires@hotmail.com>, 2014
-# LucasPPires <lucaspylespires@hotmail.com>, 2014
-# niels006 <niels006@gmail.com>, 2014
-# niels006 <niels006@gmail.com>, 2014
-# RenataBarboza, 2013
-# RenataBarboza, 2014
-# #-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#
-# edX community translations have been downloaded from Portuguese (Brazil) (http://www.transifex.com/projects/p/edx-platform/language/pt_BR/)
-# Copyright (C) 2014 edX
-# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-#
-# Translators:
-# alex_unipampa <becker.alex@alunos.unipampa.edu.br>, 2013
-# alex_unipampa <becker.alex@alunos.unipampa.edu.br>, 2013
-# brk0_0, 2013
-# brunojm <brunojm@gmail.com>, 2013
-# brunojm <brunojm@gmail.com>, 2013
-# Filipe Oliveira <contacto@fmoliveira.com.br>, 2013
-# LucasPPires <lucaspylespires@hotmail.com>, 2014
-# LucasPPires <lucaspylespires@hotmail.com>, 2014
-# marianemurakami <mhmurakami@gmail.com>, 2014
-# niels006 <niels006@gmail.com>, 2014
-# niels006 <niels006@gmail.com>, 2014
-# brk0_0, 2013
-# RenataBarboza, 2013-2014
-# rpietrobon <pietr007@gmail.com>, 2013-2014
-# #-#-#-#-#  mako-studio.po (edx-platform)  #-#-#-#-#
-# edX translation file
-# Copyright (C) 2014 edX
-# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-#
-# Translators:
-# alex_unipampa <becker.alex@alunos.unipampa.edu.br>, 2013
-# brk0_0, 2013
-# brunojm <brunojm@gmail.com>, 2013
-# Filipe Oliveira <contacto@fmoliveira.com.br>, 2013
-# LucasPPires <lucaspylespires@hotmail.com>, 2014
-# LucasPPires <lucaspylespires@hotmail.com>, 2014
-# marianemurakami <mhmurakami@gmail.com>, 2014
-# niels006 <niels006@gmail.com>, 2014
-# niels006 <niels006@gmail.com>, 2014
-# RenataBarboza, 2014
-# #-#-#-#-#  messages.po (edx-platform)  #-#-#-#-#
-# edX translation file
-# Copyright (C) 2013 edX
-# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-#
-# Translators:
-# andreibosco <andreibosco@gmail.com>, 2013
-# andreibosco <andreibosco@gmail.com>, 2013
-# #-#-#-#-#  wiki.po (edx-platform)  #-#-#-#-#
-# edX translation file
-# Copyright (C) 2014 edX
-# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
-#
-# Translators:
-# anunciato <anunciato@gmail.com>, 2014
-# LucasPPires <lucaspylespires@hotmail.com>, 2014
-# marianemurakami <mhmurakami@gmail.com>, 2014
-# RenataBarboza, 2014
+# ksh <carlos.c.saraiva@gmail.com>, 2013-2014
+# david1980 <davidc.azevedo@gmail.com>, 2014
+# ksh <carlos.c.saraiva@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2014-03-02 15:08-0500\n"
-"PO-Revision-Date: 2014-03-16 01:58+0100\n"
+"POT-Creation-Date: 2014-03-15 15:04-0400\n"
+"PO-Revision-Date: 2014-03-16 18:19+0100\n"
 "Last-Translator: David Azevedo <davidc.azevedogmail.com>\n"
-"Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/edx-platform/language/pt_BR/)\n"
+"Language-Team: Portuguese (Portugal) (http://www.transifex.com/projects/p/edx-platform/language/pt_PT/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 1.3\n"
-"Language: pt_BR\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: pt_PT\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. Translators: "Open Ended Panel" appears on a tab that, when clicked,
 #. opens up a panel that displays information about openended problems
 #. that a user has submitted or needs to grade
 #: cms/djangoapps/contentstore/utils.py lms/djangoapps/courseware/tabs.py
 msgid "Open Ended Panel"
-msgstr ""
+msgstr "Questões Abertas"
 
 #: lms/templates/courseware/courseware-error.html
 msgid "Courseware"
@@ -817,7 +740,7 @@ msgstr "Veja a linha de origem em XML {sourcenum}."
 
 #: common/lib/capa/capa/responsetypes.py common/lib/capa/capa/responsetypes.py
 msgid "There was a problem with the staff answer to this problem."
-msgstr "Houve um problema com a resposta da equipe para este problema."
+msgstr "Houve um problema com a resposta da equipa para este problema."
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "Could not interpret '{student_answer}' as a number."
@@ -863,7 +786,7 @@ msgstr "Não foi possível entregar a sua submissão ao corretor (Razão: {error
 #: common/lib/capa/capa/responsetypes.py
 #: common/lib/xmodule/xmodule/open_ended_grading_classes/open_ended_module.py
 msgid "Invalid grader reply. Please contact the course staff."
-msgstr "A resposta do corretor foi inválida. Por favor, entre em contacto com a equipe do curso."
+msgstr "A resposta do corretor foi inválida. Por favor, entre em contacto com a equipa do curso."
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "Invalid input: {bad_input} not permitted in answer."
@@ -889,7 +812,7 @@ msgstr "Ocorreu um erro na avaliação da resposta esquemática. O erro foi: {er
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "The Staff answer could not be interpreted as a number."
-msgstr "A resposta da equipe não pode ser interpretada como um número."
+msgstr "A resposta da equipa não pode ser interpretada como um número."
 
 #: common/lib/capa/capa/responsetypes.py
 msgid "Could not interpret '{given_answer}' as a number."
@@ -915,7 +838,7 @@ msgstr "O status do problema foi corrompido por uma submissão inválida. A subm
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "If this error persists, please contact the course staff."
-msgstr "Se o erro persistir, por favor, entre em contacto com a equipe do curso."
+msgstr "Se o erro persistir, por favor, entre em contacto com a equipa do curso."
 
 #. Translators: 'closed' means the problem's due date has passed. You may no
 #. longer attempt to solve the problem.
@@ -1256,7 +1179,7 @@ msgstr ""
 
 #: lms/templates/instructor/staff_grading.html
 msgid "Staff grading"
-msgstr "Avaliação pela equipe"
+msgstr "Avaliação pela equipa"
 
 #: lms/templates/courseware/syllabus.html
 msgid "Syllabus"
@@ -1488,7 +1411,7 @@ msgstr "# matriculado"
 
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "# staff"
-msgstr "# equipe"
+msgstr "# equipa"
 
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "instructors"
@@ -1857,7 +1780,7 @@ msgstr "Adicionar ao perfil"
 
 #: lms/djangoapps/open_ended_grading/staff_grading_service.py
 msgid "Could not contact the external grading server. Please contact the development team at {email}."
-msgstr "Não foi possível contatar o servidor externo de correção. Por favor, entre em contacto com a equipe de desenvolvimento através de {email}."
+msgstr "Não foi possível contatar o servidor externo de correção. Por favor, entre em contacto com a equipa de desenvolvimento através de {email}."
 
 #: lms/djangoapps/open_ended_grading/utils.py
 msgid "AI Assessment"
@@ -1881,7 +1804,7 @@ msgstr "Avaliação por Instrutor"
 
 #: lms/djangoapps/open_ended_grading/utils.py
 msgid "Error occurred while contacting the grading service.  Please notify course staff."
-msgstr "Ocorreu um erro ao entrar em contacto com o serviço de avaliação. Por favor, avise a equipe do curso."
+msgstr "Ocorreu um erro ao entrar em contacto com o serviço de avaliação. Por favor, avise a equipa do curso."
 
 #: lms/djangoapps/open_ended_grading/utils.py
 msgid "Error occurred while contacting the grading service.  Please notify your edX point of contact."
@@ -3883,7 +3806,7 @@ msgstr "Você tem <strong>perguntas generalizadas sobre {platform_name}</strong>
 
 #: lms/templates/help_modal.html
 msgid "Have a <strong>question about something specific</strong>? You can contact the {platform_name} general support team directly:"
-msgstr "Você tem <strong>perguntas sobre algo mais específico</strong>? Você pode entrar em contacto diretamente com a equipe de suporte geral do {platform_name}:"
+msgstr "Você tem <strong>perguntas sobre algo mais específico</strong>? Você pode entrar em contacto diretamente com a equipa de suporte geral do {platform_name}:"
 
 #: lms/templates/help_modal.html
 msgid "Report a problem"
@@ -4583,7 +4506,7 @@ msgstr "Fazer o Login."
 
 #: lms/templates/staff_problem_info.html
 msgid "Staff Debug Info"
-msgstr "Informação sobre debug pela equipe"
+msgstr "Informação sobre debug pela equipa"
 
 #: lms/templates/staff_problem_info.html
 msgid "Submission history"
@@ -4619,7 +4542,7 @@ msgstr "adicionar comentário"
 
 #: lms/templates/staff_problem_info.html
 msgid "Staff Debug"
-msgstr "Debug pela equipe"
+msgstr "Debug pela equipa"
 
 #: lms/templates/staff_problem_info.html lms/templates/staff_problem_info.html
 msgid "Module Fields"
@@ -4741,7 +4664,7 @@ msgstr "Vá para cada painel de controle de cada instrutor para gerenciar a matr
 
 #: lms/templates/sysadmin_dashboard.html
 msgid "Manage course staff and instructors"
-msgstr "Gerenciar equipe e instrutores do curso"
+msgstr "Gerenciar equipa e instrutores do curso"
 
 #: lms/templates/sysadmin_dashboard.html
 msgid "Download staff and instructor list (csv file)"
@@ -4943,7 +4866,7 @@ msgstr "Próximo passo"
 
 #: lms/templates/combinedopenended/combined_open_ended.html
 msgid "Staff Warning: Please note that if you submit a duplicate of text that has already been submitted for grading, it will not show up in the staff grading view.  It will be given the same grade that the original received automatically, and will be returned within 30 minutes if the original is already graded, or when the original is graded if not."
-msgstr "Aviso: Por favor note que se você enviar um um texto que já tenha sido apresentado anteriormente para  correção, ele não vai aparecer para a equipe realizando a correção. Essa segunda tarefa terá a mesma nota dada a primeira tarefa submetida, sendo retornada em 30 minutos se o original já estiver corrigido ou, em caso contrário, quando o original for corrigido."
+msgstr "Aviso: Por favor note que se você enviar um um texto que já tenha sido apresentado anteriormente para  correção, ele não vai aparecer para a equipa realizando a correção. Essa segunda tarefa terá a mesma nota dada a primeira tarefa submetida, sendo retornada em 30 minutos se o original já estiver corrigido ou, em caso contrário, quando o original for corrigido."
 
 #: lms/templates/combinedopenended/combined_open_ended_legend.html
 msgid "Legend"
@@ -5054,7 +4977,7 @@ msgstr[1] ""
 
 #: lms/templates/combinedopenended/openended/open_ended_error.html
 msgid "There was an error with your submission.  Please contact course staff."
-msgstr "Ocorreu um erro durante o envio. Por favor entre em contacto com a equipe do curso."
+msgstr "Ocorreu um erro durante o envio. Por favor entre em contacto com a equipa do curso."
 
 #: lms/templates/combinedopenended/openended/open_ended_rubric.html
 msgid "Rubric"
@@ -5185,7 +5108,7 @@ msgstr "Ocorreu um erro nos servidores do {span_start}{platform_name}{span_end}"
 
 #: lms/templates/courseware/courseware-error.html
 msgid "We're sorry, this module is temporarily unavailable. Our staff is working to fix it as soon as possible. Please email us at '<a href=\"mailto:{tech_support_email}\">{tech_support_email}</a>' to report any problems or downtime."
-msgstr "Desculpe-nos, este módulo está temporariamente não disponível. Nossa equipe está trabalhando para corrigir o problema o mais rápido possível. Por favor envie uma mensagem para '<a href=\"mailto:{tech_support_email}\">{tech_support_email}</a>' relatando qualquer problema ou que o site não esteja ativo."
+msgstr "Desculpe-nos, este módulo está temporariamente não disponível. Nossa equipa está trabalhando para corrigir o problema o mais rápido possível. Por favor envie uma mensagem para '<a href=\"mailto:{tech_support_email}\">{tech_support_email}</a>' relatando qualquer problema ou que o site não esteja ativo."
 
 #: lms/templates/courseware/courseware.html
 msgid "{course_number} Courseware"
@@ -5504,12 +5427,12 @@ msgstr "mim mesmo"
 #: lms/templates/courseware/instructor_dashboard.html
 #: lms/templates/instructor/instructor_dashboard_2/send_email.html
 msgid "Staff and instructors"
-msgstr "Equipe e instrutores"
+msgstr "equipa e instrutores"
 
 #: lms/templates/courseware/instructor_dashboard.html
 #: lms/templates/instructor/instructor_dashboard_2/send_email.html
 msgid "All (students, staff and instructors)"
-msgstr "Todos (alunos, equipe e instrutores)"
+msgstr "Todos (alunos, equipa e instrutores)"
 
 #: lms/templates/courseware/instructor_dashboard.html
 #: lms/templates/instructor/instructor_dashboard_2/send_email.html
@@ -6343,7 +6266,7 @@ msgstr "Esconder discussão"
 
 #: lms/templates/discussion/mustache/_inline_thread_show.mustache
 msgid "This thread has been pinned by course staff."
-msgstr "Este segmento foi marcado pela equipe do curso"
+msgstr "Este segmento foi marcado pela equipa do curso"
 
 #: lms/templates/discussion/mustache/_pagination.mustache
 msgid "…"
@@ -6351,7 +6274,7 @@ msgstr "…"
 
 #: lms/templates/instructor/staff_grading.html
 msgid "{course_number} Staff Grading"
-msgstr "Avaliação pela Equipe {course_number}"
+msgstr "Avaliação pela equipa {course_number}"
 
 #: lms/templates/instructor/staff_grading.html
 msgid "This is the list of problems that currently need to be graded in order to train AI grading and create calibration essays for peer grading. Each problem needs to be treated separately, and we have indicated the number of student submissions that need to be graded.  You can grade more than the minimum required number of submissions--this will improve the accuracy of AI grading, though with diminishing returns. You can see the current accuracy of AI grading in the problem view."
@@ -6405,7 +6328,7 @@ msgstr "Carregando a lista de problemas..."
 
 #: lms/templates/instructor/instructor_dashboard_2/analytics.html
 msgid "Gender Distribution"
-msgstr "Distribuição de Gênero"
+msgstr "Distribuição de Género"
 
 #: lms/templates/instructor/instructor_dashboard_2/analytics.html
 msgid "Level of Education"
@@ -6623,19 +6546,19 @@ msgstr "Obtendo as listas disponíveis..."
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Staff cannot modify staff or beta tester lists. To modify these lists, contact your instructor and ask them to add you as an instructor for staff and beta lists, or a forum admin for forum management."
-msgstr "A equipe não pode modificar as listas de equipe ou de testadores beta. Para modificar estas listas, entre em contacto com seu instrutor para que ele possa adicioná-lo como um instrutor para as listas de equipe e beta ou como administrador de fórum para gerenciamento do fórum. "
+msgstr "A equipa não pode modificar as listas de equipa ou de testadores beta. Para modificar estas listas, entre em contacto com seu instrutor para que ele possa adicioná-lo como um instrutor para as listas de equipa e beta ou como administrador de fórum para gerenciamento do fórum. "
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Course Staff"
-msgstr "Equipe do Curso"
+msgstr "equipa do Curso"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Course staff can help you manage limited aspects of your course. Staff can enroll and unenroll students, as well as modify their grades and see all course data. Course staff are not automatically given access to Studio and will not be able to edit your course."
-msgstr "A equipe do curso pode ajudar você a gerenciar aspectos limitados do seu curso. A equipe também pode fazer ou desfazer matrículas dos alunos, bem como modificar notas e visualizar todos os dados do curso. Entretanto, a equipe não obtém acesso automaticamente ao Studio e não poderá editar seu curso. "
+msgstr "A equipa do curso pode ajudar você a gerenciar aspectos limitados do seu curso. A equipa também pode fazer ou desfazer matrículas dos alunos, bem como modificar notas e visualizar todos os dados do curso. Entretanto, a equipa não obtém acesso automaticamente ao Studio e não poderá editar seu curso. "
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Add Staff"
-msgstr "Adicionar Membro da Equipe "
+msgstr "Adicionar Membro da equipa "
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Instructors"
@@ -6643,7 +6566,7 @@ msgstr "Instrutores"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Instructors are the core administration of your course. Instructors can add and remove course staff, as well as administer forum access."
-msgstr "Os instrutores são a parte principal da administração do seu curso. Os instrutores podem adicionar e remover membros da equipe do curso bem como o acesso ao fórum. "
+msgstr "Os instrutores são a parte principal da administração do seu curso. Os instrutores podem adicionar e remover membros da equipa do curso bem como o acesso ao fórum. "
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Add Instructor"
@@ -6755,7 +6678,7 @@ msgstr "A seguir, selecione uma ação a se executada para um usuário e problem
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
 msgid "Reset Student Attempts"
-msgstr "Zerar Tentativas do Aluno"
+msgstr "Reiniciar Tentativas do Aluno"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
 msgid "Rescore Student Submission"
@@ -7024,7 +6947,7 @@ msgstr "Sua conta ainda não está ativa. Um link de ativação, juntamente com 
 
 #: lms/templates/registration/activation_complete.html
 msgid "Activation Complete!"
-msgstr ""
+msgstr "Ativação completa!"
 
 #: lms/templates/registration/activation_complete.html
 msgid "Account already active!"
@@ -7221,7 +7144,7 @@ msgstr "Revisar"
 #: lms/templates/verify_student/show_requirements.html
 #: lms/templates/verify_student/verified.html
 msgid "Make Payment"
-msgstr "Pagar"
+msgstr "Efetue Pagamento"
 
 #: lms/templates/shoppingcart/verified_cert_receipt.html
 #: lms/templates/verify_student/photo_reverification.html
@@ -7361,7 +7284,7 @@ msgstr "No momento, os servidores de <em>{platform_name}</em> estão sobrecarreg
 
 #: lms/templates/university_profile/edge.html
 msgid "edX edge"
-msgstr "Escola edge"
+msgstr "edX edge"
 
 #: lms/templates/university_profile/edge.html
 msgid "Log in to your courses"
@@ -7420,7 +7343,7 @@ msgstr "Por favor, leia {a_start}nossa secção Perguntas Frequentes para ver as
 
 #: lms/templates/verify_student/_verification_header.html
 msgid "You are upgrading your registration for"
-msgstr "Você está atualizando o seu registopara:"
+msgstr "Você está atualizando o seu registo para:"
 
 #: lms/templates/verify_student/_verification_header.html
 msgid "You are re-verifying for"
@@ -7444,7 +7367,7 @@ msgstr "Matriculando-se como:"
 
 #: lms/templates/verify_student/_verification_support.html
 msgid "Change your mind?"
-msgstr "Mudou de idéia?"
+msgstr "Mudou de ideia?"
 
 #: lms/templates/verify_student/_verification_support.html
 #: lms/templates/verify_student/photo_verification.html
