@@ -87,7 +87,7 @@ msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2014-03-02 15:08-0500\n"
-"PO-Revision-Date: 2014-03-15 22:53+0100\n"
+"PO-Revision-Date: 2014-03-16 01:58+0100\n"
 "Last-Translator: David Azevedo <davidc.azevedogmail.com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/edx-platform/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
@@ -1656,7 +1656,7 @@ msgstr "Nome do usuário"
 #, fuzzy
 msgid "Full Name"
 msgstr ""
-"Nome Completo#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#\n"
+"Nome CompletoNome Completo#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#\n"
 "Nome Completo\n"
 "#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#\n"
 "Nome completo"
@@ -8630,7 +8630,7 @@ msgstr "Manter os seus cursos organizados"
 
 #: cms/templates/howitworks.html
 msgid "The backbone of your course is how it is organized. Studio offers an <strong>Outline</strong> editor, providing a simple hierarchy and easy drag and drop to help you and your students stay organized."
-msgstr "A espinha dorsal do seu curso é a forma como está organizado. Estúdio oferece-lhe um editor <strong>intuitivo</strong> com uma hierarquia simples onde basta arrastar e largar."
+msgstr "A espinha dorsal do seu curso é a forma como está organizado. O Estúdio oferece-lhe um editor <strong>intuitivo</strong> com uma hierarquia simples onde basta arrastar e largar."
 
 #: cms/templates/howitworks.html
 msgid "Simple Organization For Content"
@@ -8646,7 +8646,7 @@ msgstr "Mude de ideias a qualquer momento"
 
 #: cms/templates/howitworks.html
 msgid "Draft your outline and build content anywhere. Simple drag and drop tools let your reorganize quickly."
-msgstr "Faça um rascunho e construa conteúdo a qualquer momento. Basta arrastar e largar, para reorganizar conteúdo rápido."
+msgstr "Faça um esboço e construa conteúdo a qualquer momento. Basta arrastar e largar para reorganizar conteúdos rápido."
 
 #: cms/templates/howitworks.html
 msgid "Go A Week Or A Semester At A Time"
@@ -8663,11 +8663,11 @@ msgstr "Aprender é mais do que Lições"
 
 #: cms/templates/howitworks.html
 msgid "Studio lets you weave your content together in a way that reinforces learning &mdash; short video lectures interleaved with exercises and more. Insert videos and author a wide variety of exercise types with just a few clicks."
-msgstr "O Estúdio permite tecer o seu conteúdo de uma maneira que reforça a aprendizagem - aulas com vídeos curtos intercalados com exercícios e muito mais. Insira vídeos e produza uma grande variedade de exercícios com apenas alguns cliques."
+msgstr "O Estúdio permite tecer o seu conteúdo de uma maneira que reforça a aprendizagem - aulas com vídeos curtos intercalados com exercícios, textos, discussões e muito mais. Com apenas alguns cliques insira vídeos e produza uma grande variedade de material didático."
 
 #: cms/templates/howitworks.html
 msgid "Create Learning Pathways"
-msgstr "Crie Caminhos de Aprendizgem"
+msgstr "Crie Caminhos de Aprendizagem"
 
 #: cms/templates/howitworks.html
 msgid "Help your students understand a small interactive piece at a time with multimedia, HTML, and exercises."
@@ -8679,7 +8679,7 @@ msgstr "Trabalhe Visualmente, Organize Rapidamente"
 
 #: cms/templates/howitworks.html
 msgid "Work visually and see exactly what your students will see. Reorganize all your content with drag and drop."
-msgstr "Trabalhe visualmente e veja exatamente o que os seus alunos irão ver. Reorganize todo o seu conteúdo com arrastar e largar."
+msgstr "Trabalhe visualmente e veja exatamente o que os seus alunos irão ver através do botão Ver ao Vivo. Reorganize todo o seu conteúdo com arrastar e largar."
 
 #: cms/templates/howitworks.html
 msgid "A Broad Library of Problem Types"
@@ -8920,7 +8920,7 @@ msgstr "Envie um Email à Administração para criar um Curso"
 
 #: cms/templates/index.html
 msgid "Welcome, {0}!"
-msgstr "Bem Vindo, Estúdio da Escola!"
+msgstr "Bem Vindo ao Estúdio da Escola!"
 
 #: cms/templates/index.html
 msgid "Here are all of the courses you currently have access to in Studio:"
@@ -9016,11 +9016,11 @@ msgstr "Crie o seu Primeiro Curso"
 
 #: cms/templates/index.html
 msgid "Your new course is just a click away!"
-msgstr ""
+msgstr "O seu novo curso está à distância de um clique!"
 
 #: cms/templates/index.html
 msgid "Becoming a Course Creator in Studio"
-msgstr ""
+msgstr "Tornar-se um Criador de Cursos no Estúdio"
 
 #: cms/templates/index.html
 msgid "edX Studio is a hosted solution for our xConsortium partners and selected guests. Courses for which you are a team member appear above for you to edit, while course creator privileges are granted by edX. Our team will evaluate your request and provide you feedback within 24 hours during the work week."
@@ -9088,7 +9088,7 @@ msgstr "Para começar a criar cursos no Estúdio, deve"
 
 #: cms/templates/index.html
 msgid "contact edX staff to help you create a course"
-msgstr "contactar a administração da escola.org"
+msgstr "contactar a administração da escola.org para criar um curso"
 
 #: cms/templates/index.html
 msgid "In order to create courses in Studio, you must have course creator privileges to create your own course."
@@ -9104,7 +9104,7 @@ msgstr "contacte a escola.org para mais questões"
 
 #: cms/templates/index.html
 msgid "Thanks for signing up, %(name)s!"
-msgstr "Obrigado por se inscrever,"
+msgstr "Obrigado por se inscrever, %(name)s!"
 
 #: cms/templates/index.html
 msgid "We need to verify your email address"
@@ -9250,7 +9250,7 @@ msgstr ""
 
 #: cms/templates/overview.html cms/templates/overview.html
 msgid "Course Outline"
-msgstr ""
+msgstr "Esboço do Curso"
 
 #: cms/templates/overview.html cms/templates/overview.html
 #: cms/templates/overview.html
@@ -9419,7 +9419,7 @@ msgstr "Calendário; Detalhes das Definições"
 
 #: cms/templates/settings.html
 msgid "Schedule & Details"
-msgstr "Calendário e Detalhes"
+msgstr "Calendário e Introdução"
 
 #: cms/templates/settings.html
 msgid "Basic Information"
@@ -9436,7 +9436,7 @@ msgstr ""
 
 #: cms/templates/settings.html
 msgid "Course Summary Page"
-msgstr ""
+msgstr "Página de Sumário do Curso"
 
 #: cms/templates/settings.html
 msgid "(for student enrollment and access)"
@@ -9887,7 +9887,7 @@ msgstr "{course_name} Navegação:"
 
 #: cms/templates/widgets/header.html
 msgid "Outline"
-msgstr "Esboço"
+msgstr "Estrutura do Curso"
 
 #: cms/templates/widgets/header.html
 msgid "Updates"
@@ -9895,7 +9895,7 @@ msgstr ""
 
 #: cms/templates/widgets/header.html
 msgid "Schedule &amp; Details"
-msgstr "Calendário e Detalhes"
+msgstr "Calendário e Introdução"
 
 #: cms/templates/widgets/header.html
 msgid "Checklists"
