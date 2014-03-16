@@ -3,38 +3,50 @@ metadata:
     display_name: overview
 
 data: |
-   <section class="about">
-     <h2>Sobre este curso</h2>
-      <p>Este curso é uma demonstração das valências dos nossos cursos. Inscreve-te e descobre!</p>
+    <section class="about">
+      <h2>Sobre este Curso</h2>
+      <p>Escreva a descrição do seu curso aqui, deve conter entre 150-400 palavras.</p>
 
-   <p>Este é o parágrafo 2 da descrição do curso. Adiciona mais parágrafos se necessário. Tem a certeza de incluí-los em tags de parágrafos.</p>
- </section>
+      <p>Este é o 2.º parágrafo da descrição. Adicione mais parágrafos. O início e final de cada parágrafo deve conter as tags "<p e /p>" respectivamente. </p>
+    </section>
 
- <section class="prerequisites">
-   <h2>Pré-requisitos</h2>
-   <p>Adiciona a informação sobre a informação sobre os pré-requisitos para o curso.</p>
- </section>
+    <section class="prerequisites">
+      <h2>Prerequisites</h2>
+      <p>Adicione os pre-requisitos aqui.</p>
+    </section>
 
- <section class="course-staff">
-   <h2>Equipa do Curso</h2>
-   <article class="teacher">
-     <div class="teacher-image">
-       <img src="/static/images/pl-faculty.png" align="left" style="margin:0 20 px 0">
-     </div>
+    <section class="course-staff">
+      <h2>Course Staff</h2>
+      <article class="teacher">
+        <div class="teacher-image">
+          <img src="/static/images/pl-faculty.png" align="left" style="margin:0 20 px 0" alt="Course Staff Image #1">
+        </div>
 
-     <h3>Biografia de instrutor/equipa do membro #1</h3>
-     <p>Biografia de instrutor/equipa do membro #1</p>
-   </article>
+        <h3>Professor ... #1</h3>
+        <p>Biografia do Professor #1</p>
+      </article>
 
-   <article class="teacher">
-     
- 
- <section class="faq">
-   <section class="responses">
-     <h2>Perguntas Frequentemente Realizadas</h2>
-      <article class="response">
-       <h3>Preciso de comprar um livro de texto?</h3>
-       <p>Não, vou disponibilizar material didático online.</p>
-     </article>
-   </section>
- </section>
+      <article class="teacher">
+        <div class="teacher-image">
+          <img src="/static/images/pl-faculty.png" align="left" style="margin:0 20 px 0" alt="Course Staff Image #2">
+        </div>
+
+        <h3>Professor ... #2</h3>
+        <p>Biografia do Professor #2</p>
+      </article>
+    </section>
+
+    <section class="faq">
+      <section class="responses">
+        <h2>Perguntas Frequentes</h2>
+        <article class="response">
+          <h3>Preciso de um manual escolar?</h3>
+          <p>A sua resposta virá aqui.</p>
+        </article>
+
+        <article class="response">
+          <h3>Questão #2</h3>
+          <p>A sua resposta virá aqui.</p>
+        </article>
+      </section>
+    </section>
