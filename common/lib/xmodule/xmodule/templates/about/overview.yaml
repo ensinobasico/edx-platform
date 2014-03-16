@@ -7,12 +7,12 @@ data: |
       <h2>Sobre este Curso</h2>
       <p>Escreva a descrição do seu curso aqui, deve conter entre 150-400 palavras.</p>
 
-      <p>Este é o 2.º parágrafo da descrição. Adicione mais parágrafos. O início e final de cada parágrafo deve conter as tags "<p e /p>" respectivamente. </p>
+      <p>Este é o 2.º parágrafo da descrição. Adicione mais parágrafos. O início e final de cada parágrafo deve conter as tags "p e /p" respectivamente. </p>
     </section>
 
     <section class="prerequisites">
-      <h2>Prerequisites</h2>
-      <p>Adicione os pre-requisitos aqui.</p>
+      <h2>Pré requisitos</h2>
+      <p>Adicione os pré requisitos aqui.</p>
     </section>
 
     <section class="course-staff">
