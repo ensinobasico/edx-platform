@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2014-03-15 15:04-0400\n"
-"PO-Revision-Date: 2014-03-16 18:19+0100\n"
+"PO-Revision-Date: 2014-03-21 00:34+0100\n"
 "Last-Translator: David Azevedo <davidc.azevedogmail.com>\n"
 "Language-Team: Portuguese (Portugal) (http://www.transifex.com/projects/p/edx-platform/language/pt_PT/)\n"
 "MIME-Version: 1.0\n"
@@ -29,7 +29,7 @@ msgstr "Questões Abertas"
 
 #: lms/templates/courseware/courseware-error.html
 msgid "Courseware"
-msgstr "Material Didático"
+msgstr "Capítulos"
 
 #. Translators: "Course Info" is the name of the course's information and
 #. updates page
@@ -9334,7 +9334,7 @@ msgstr "Nunca criei um curso anteriormente. Existe ajuda?"
 
 #: cms/templates/register.html
 msgid "Absolutely. We have created an online course, edX101, that describes some best practices: from filming video, creating exercises, to the basics of running an online course. Additionally, we're always here to help, just drop us a note."
-msgstr "Absolutamente, criamos um cursod e demonstração, edx101, que descreve as melhores  práticas de filmagem, criação de exercícios, e os princípios básicos de gestão de cursos online. Adicionalmente, pode contar com a nossa ajuda."
+msgstr "Absolutamente, criamos um curso de demonstração, edx101, que descreve as melhores  práticas de filmagem, criação de exercícios, e os princípios básicos de gestão de cursos online. Adicionalmente, pode contar com a nossa ajuda."
 
 #: cms/templates/settings.html
 msgid "Schedule &amp; Details Settings"
