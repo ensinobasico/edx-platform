@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
 "POT-Creation-Date: 2014-03-15 15:04-0400\n"
-"PO-Revision-Date: 2014-03-21 00:34+0100\n"
+"PO-Revision-Date: 2014-03-21 03:12+0100\n"
 "Last-Translator: David Azevedo <davidc.azevedogmail.com>\n"
 "Language-Team: Portuguese (Portugal) (http://www.transifex.com/projects/p/edx-platform/language/pt_PT/)\n"
 "MIME-Version: 1.0\n"
@@ -1161,7 +1161,7 @@ msgstr ""
 
 #: lms/djangoapps/course_wiki/views.py
 msgid "Course page automatically created."
-msgstr ""
+msgstr "Página do curso criada automaticamente."
 
 #: lms/djangoapps/course_wiki/views.py
 msgid "Welcome to the edX Wiki"
@@ -1579,7 +1579,7 @@ msgstr "Nome do usuário"
 #, fuzzy
 msgid "Full Name"
 msgstr ""
-"Nome CompletoNome Completo#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#\n"
+"Nome CompletoNome CompletoNome Completo#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#\n"
 "Nome Completo\n"
 "#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#\n"
 "Nome completo"
@@ -4125,7 +4125,7 @@ msgstr "Dados brutos:"
 
 #: lms/templates/name_changes.html
 msgid "Accepted"
-msgstr "Aceito"
+msgstr "Aceitado"
 
 #: lms/templates/name_changes.html lms/templates/name_changes.html
 #: lms/templates/sysadmin_dashboard_gitlogs.html
@@ -4150,7 +4150,7 @@ msgstr "[Reject]"
 
 #: lms/templates/navigation.html lms/templates/navigation.html
 msgid "Global Navigation"
-msgstr ""
+msgstr "Navegação Global"
 
 #: lms/templates/navigation.html
 msgid "Find Courses"
@@ -8027,7 +8027,7 @@ msgstr ""
 
 #: lms/templates/wiki/includes/article_menu.html
 msgid "Changes"
-msgstr ""
+msgstr "Mudanças"
 
 #: lms/templates/wiki/includes/article_menu.html
 msgid "{span_start}active{span_end}"
@@ -8035,7 +8035,7 @@ msgstr "{span_start}ativo{span_end}"
 
 #: lms/templates/wiki/includes/breadcrumbs.html
 msgid "Add article"
-msgstr ""
+msgstr "Adicionar artigo"
 
 #: cms/templates/404.html
 msgid "The page that you were looking for was not found."
@@ -10064,7 +10064,7 @@ msgstr "Trancar artigo"
 
 #: wiki/forms.py
 msgid "Deny all users access to edit this article."
-msgstr ""
+msgstr "Impeça o acesso a este artigo a todos os usuários."
 
 #: wiki/forms.py
 msgid "Permissions"
